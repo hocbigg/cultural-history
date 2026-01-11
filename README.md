@@ -25,73 +25,174 @@ The Cultural History curriculum is a **complete education in Cultural History** 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
-
 **[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
 
-- ...
+- **Forums:**
+  - [Historum - Arts & Culture](https://historum.com/arts-culture/) (Active discussions on cultural history, art, literature, mythology, and popular culture)
+  - [Historum Main History Forum](https://historum.com/) (Broad history forum with dedicated sections for cultural and related topics)
+- **Subreddits:**
+  - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/) (Highly active, expert-moderated Q&A for in-depth historical questions, including strong coverage of cultural history, anthropology, and material culture)
+  - [r/history](https://www.reddit.com/r/history/) (General history discussions, frequently including cultural aspects, everyday life, and long-term cultural evolution)
+- [Cultures of History Forum](https://www.cultures-of-history.uni-jena.de/) (Academic-oriented platform focused on cultures of history, memory, and historiography in Central/Eastern/Southeastern Europe and beyond)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/cultural-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## Intro Cultural History
+- [I. Foundations of Cultural History](#i-foundations-of-cultural-history)
+    - [How Culture and History Work](#how-culture-and-history-work)
+    - [How We Read Cultural Evidence](#how-we-read-cultural-evidence)
+- [II. Global Cultural History — Before 1500](#ii-global-cultural-history--before-1500)
+    - [A. Ancient & Classical Worlds](#a-ancient--classical-worlds)
+    - [B. Medieval Global Cultures 500–1500](#b-medieval-global-cultures-5001500)
+- [III. Global Cultural History — 1500–1800](#iii-global-cultural-history--15001800)
+    - [A. Encounters, Empires, Exchange](#a-encounters-empires-exchange)
+- [IV. Global Cultural History — 1800–Present](#iv-global-cultural-history--1800present)
+    - [A. Industrial, Colonial, Postcolonial Worlds](#a-industrial-colonial-postcolonial-worlds)
+- [V. Thematic Cultural Systems Grounded in History](#v-thematic-cultural-systems-grounded-in-history)
+    - [A. Religion & Cosmology](#a-religion--cosmology)
+    - [B. Art & Visual Culture](#b-art--visual-culture)
+    - [C. Gender, Family, Body](#c-gender-family-body)
+    - [D. Everyday Life & Objects](#d-everyday-life--objects)
+- [VI. Interpretive Lenses Used After Historical Grounding](#vi-interpretive-lenses-used-after-historical-grounding)
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Introduction to Cultural Anthropology | Provides core concepts of culture, ethnography, and relativism essential for understanding cultural history. | [*Cultural Anthropology: A Toolkit for a Global Age* by Kenneth J. Guest](https://archive.org/details/culturalanthropo0000gues) | [Introduction to Anthropology (MIT OpenCourseWare)](https://ocw.mit.edu/courses/21a-00-introduction-to-anthropology-spring-2013/) |
-| Historiography and Historical Methods | Teaches how historians (including cultural historians) source, interpret, and write history critically. | [*The Methods and Skills of History: A Practical Guide* by Michael J. Salevouris and Conal Furay](https://www.amazon.com/Methods-Skills-History-Practical-Guide/dp/1118745442) | Covered in Core Phase courses (e.g., Yale Early Middle Ages) |
-| Introduction to Cultural Studies | Explores culture as power, identity, and practice in modern contexts. | [*Cultural Studies: Theory and Practice* by Chris Barker](https://archive.org/details/culturalstudiest0003edbark) | [Cultural Studies and Developments (Alison)](https://alison.com/course/cultural-studies-and-developments) |
+## How to use this curriculum
 
-## Core Cultural History
+### Core Sections
 
-### Pre-Modern Worlds
+These sections form the necessary backbone of the discipline. Study them in this exact order:
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Ancient Civilizations and Cultures | Examines origins of complex societies, myths, and material culture. | [*The Ancient World: A Social and Cultural History* by D. Brendan Nagle](https://www.amazon.com/Ancient-World-Social-Cultural-History/dp/0205941508) | [Introduction to Ancient Greek History (Open Yale Courses)](https://oyc.yale.edu/classics/clcv-205) |
-| Classical Mediterranean and Near Eastern Cultures | Focuses on Greece, Rome, and interactions shaping Western and global traditions. | [*The Oxford History of the Classical World*](https://www.amazon.com/Oxford-History-Classical-World/dp/0198721129) | [Roman Architecture (Open Yale Courses)](https://oyc.yale.edu/history-of-art/hsar-252) |
-| Medieval Worlds: Europe, Islam, Asia | Explores cross-cultural exchanges (e.g., Silk Roads, Crusades). | [*Medieval Civilization* by Jacques Le Goff](https://www.amazon.com/Medieval-Civilization-400-1500-Jacques-Goff/dp/0631175660) | [The Early Middle Ages, 284–1000 (Open Yale Courses)](https://oyc.yale.edu/history/hist-210) |
+1. **I. Foundations of Cultural History**  
+   Start here. This section teaches you the basic concepts, methods, and ways of reading cultural evidence that you will use throughout the entire curriculum.
 
-### Early Modern to Modern Transitions
+2. **II. Global Cultural History — Before 1500**  
+   Move to this section next. It gives you the long-term historical context of human societies before the modern era.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Renaissance and Early Modern Europe | Cultural rebirth, humanism, and global exploration's impact. | [*Civilization of the Renaissance in Italy* by Jacob Burckhardt](https://www.amazon.com/Civilization-Renaissance-Italy-Jacob-Burckhardt/dp/014044534X) | Covered in European Civilization, 1648-1945 (Open Yale Courses) |
-| World History: 1500–1800 (Age of Empires and Exchanges) | Covers colonialism, trade, and cultural encounters globally. | [*Traditions & Encounters: A Global Perspective on the Past* by Jerry H. Bentley (Vol. 2)](https://www.amazon.com/Traditions-Encounters-Global-Perspective-Past/dp/0077504917) | [History of the World Since 1500 CE (Columbia University Lectures)](https://www.youtube.com/playlist?list=PL49C7AA14331CFEF3) |
-| World History: 1800–Present | Industrialization, nationalism, globalization, and cultural shifts. | [*A History of the Modern World* by R.R. Palmer](https://archive.org/details/historyofmodernw0000unse) | [The Modern World, Part One: Global History from 1760 to 1910 (Coursera - University of Virginia)](https://www.coursera.org/learn/modern-world) |
-| Cultural History of Modernity | Theories of modernity, consumerism, media. | [*All That Is Solid Melts into Air* by Marshall Berman](https://www.amazon.com/All-That-Solid-Melts-into/dp/0140109625) | Covered in above Modern World course |
+3. **III. Global Cultural History — 1500–1800**  
+   Continue directly after section II. This covers the crucial period of global encounters, early empires, and the beginnings of the modern world.
 
-## Advanced
+4. **IV. Global Cultural History — 1800–Present**  
+   Finish the broad historical spine here. This section brings the story up to the contemporary world.
 
-### Regional Cultural Histories
+Once you have completed sections I–IV in order, you will have a coherent, chronological understanding of global cultural history and the main tools needed to analyze it.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Cultural History of Asia (e.g., China/India) | Deepens non-Western perspectives on tradition and change. | [*Sources of Chinese Tradition* ed. by Wm. Theodore de Bary](https://www.amazon.com/Sources-Chinese-Tradition-Vol-Introduction/dp/0231109393) | [Chinese Culture and Contemporary China (Coursera - Nanjing University)](https://www.coursera.org/learn/china-culture-contemporary) |
-| Cultural History of Africa | Examines pre-colonial, colonial, and postcolonial cultures. | [*Africa: A Modern History* by Guy Arnold](https://www.amazon.com/Africa-Modern-History-Guy-Arnold/dp/1786490366) | Covered in broader world history courses |
-| Cultural History of the Americas (Pre-Columbian to Modern) | Indigenous, colonial, and hybrid cultures. | [*Born in Blood and Fire: A Concise History of Latin America* by John Charles Chasteen](https://www.amazon.com/Born-Blood-Fire-Concise-History/dp/0393283054) | [Latin American Culture (Coursera - Tecnológico de Monterrey)](https://www.coursera.org/learn/latinamericanculture) |
+### Specialization Tracks – Choose after finishing the Core
 
-### Thematic Cultural Histories
+After completing the Core (sections I–IV), move to the following two sections according to your interests:
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Art and Visual Culture History | How images shape and reflect cultures. | [*Ways of Seeing* by John Berger](https://www.amazon.com/Ways-Seeing-John-Berger/dp/0140135154) | [Art and Visual Culture: Medieval to Modern (OpenLearn - Open University)](https://www.open.edu/openlearn/history-the-arts/art-and-visual-culture-medieval-modern/content-section-0) |
-| History of Religion and Belief Systems | Cultural role of spirituality and secularism. | [*The Sacred and the Profane* by Mircea Eliade](https://www.amazon.com/Sacred-Profane-Nature-Religion/dp/015679201X) | [Comparative Study of Religions (Alison)](https://alison.com/course/comparative-study-of-religions) |
-| Gender and Sexuality in Cultural History | Evolution of norms and identities. | [*A History of Sexuality* (Vol. 1) by Michel Foucault](https://www.amazon.com/History-Sexuality-Vol-Introduction/dp/0394417755) | [A Global History of Sex and Gender (FutureLearn - University of Glasgow)](https://www.futurelearn.com/courses/a-global-history-of-sex-and-gender) |
+- **V. Thematic Cultural Systems**  
+  This section lets you explore major cultural domains (religion, art, gender, everyday life) across time. Work through the subsections that interest you most, or study all of them if you want a well-rounded view.
 
-### Critical and Contemporary Approaches
+- **VI. Interpretive Lenses**  
+  This section introduces powerful theoretical perspectives that help you ask deeper questions about culture, power, and change. Read these works after you have a solid historical foundation, and return to them as needed when analyzing specific topics.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Postcolonial and Subaltern Studies | Cultural impacts of empire and resistance. | [*Orientalism* by Edward W. Said](https://www.amazon.com/Orientalism-Edward-W-Said/dp/039474067X) | Covered in broader globalization courses |
-| Material Culture and Everyday Life | Objects, consumption, and daily practices. | [*The Social Life of Things* ed. by Arjun Appadurai](https://www.amazon.com/Social-Life-Things-Commodities-Production/dp/0521357268) | [An Introduction to Material Culture (OpenLearn - Open University)](https://www.open.edu/openlearn/history-the-arts/visual-art/an-introduction-material-culture/content-section-0) |
-| Global Culture and Globalization | Contemporary flows, hybridity, digital culture. | [*Globalization and Culture* by John Tomlinson](https://www.amazon.com/Globalization-Culture-John-Tomlinson/dp/074561339X) | [Globalization And Culture (NPTEL - IIT Kharagpur)](https://www.youtube.com/playlist?list=PLyqSpQzTE6M8vM5OZ4nyO0o3PbqpMB_zg) |
+## I. Foundations of Cultural History
+
+### 1. How Culture and History Work
+
+| Subject | Resource |
+| --- | --- |
+| Cultural anthropology | **[Guest, _Cultural Anthropology_ (Archive.org)](https://archive.org/details/culturalanthropo0000gues)** |
+| Historical method | **[Stanford History Education Group Reading Like a Historian](https://inquirygroup.org/history-lessons)** (now hosted by Digital Inquiry Group, successor to SHEG) |
+| Culture as evidence | **[MIT OCW: Anthropology](https://ocw.mit.edu/courses/anthropology/)** (various courses, e.g., Introduction to Anthropology) |
+
+### 2. How We Read Cultural Evidence
+
+| Domain | Resource |
+| --- | --- |
+| Texts & myths | **[Internet Sacred Text Archive](https://sacred-texts.com/)** |
+| Art & objects | **[MET Museum Heilbrunn Timeline](https://www.metmuseum.org/toah/)** |
+| Architecture & cities | **[Smarthistory](https://smarthistory.org/)** |
+
+## II. Global Cultural History — Before 1500
+
+(*All regions studied together*)
+
+### A. Ancient & Classical Worlds
+
+| Region | Primary Source Base |
+| --- | --- |
+| Mesopotamia, Egypt | **[Internet Ancient History Sourcebook](https://sourcebooks.fordham.edu/ancient/asbook.asp)** |
+| India | **[Fordham Indian History Sourcebook](https://sourcebooks.fordham.edu/india/indiasbook.asp)** |
+| China | **[Chinese Text Project](https://ctext.org/)** |
+| Africa | **[UNESCO General History of Africa Vol. I–II](https://archive.org/details/j.f.adeajayigeneralhistoryofafricavolum)** (full volumes available on Internet Archive) |
+| Americas | **[Dumbarton Oaks Pre-Columbian](https://www.doaks.org/research/pre-columbian)** |
+
+Core Narrative: **[OpenStax _World History Vol. 1_](https://openstax.org/details/books/world-history-volume-1)**
+
+### B. Medieval Global Cultures (500–1500)
+
+| Civilizational sphere | Sources |
+| --- | --- |
+| Islamic world | **[Aga Khan Museum online](https://agakhanmuseum.org/)** (collections and virtual access) |
+| Europe | **[Yale HIST 210](https://oyc.yale.edu/history/hist-210)** (Early Middle Ages) |
+| China | **[Harvard ChinaX materials](https://www.edx.org/school/harvardx)** |
+| Africa | **[UNESCO GHA Vol. III](https://archive.org/details/j.f.adeajayigeneralhistoryofafricavolum)** (part of the series) |
+| Americas | **[FAMSI + Dumbarton Oaks](https://www.doaks.org/research/pre-columbian)** (FAMSI integrated into similar resources) |
+
+## III. Global Cultural History — 1500–1800
+
+### A. Encounters, Empires, Exchange
+
+- **[OpenStax _World History Vol. 2_](https://openstax.org/details/books/world-history-volume-2)** (Note: Use later chapters for post-1500)
+- **[Fordham Modern History Sourcebook](https://sourcebooks.fordham.edu/mod/modsbook.asp)**
+
+Regions studied in parallel:
+
+- Europe
+- Islamic empires
+- China & Japan
+- Africa
+- Indigenous Americas
+
+## IV. Global Cultural History — 1800–Present
+
+### A. Industrial, Colonial, Postcolonial Worlds
+
+- OpenStax World History Vol. 2 (later chapters)
+- **[Yale Global History lectures](https://oyc.yale.edu/history)** (relevant global courses available)
+
+Primary sources:
+
+- **[Wilson Center Digital Archive](https://digitalarchive.wilsoncenter.org/)**
+- **[British Library Images](https://www.bl.uk/collection-items)** (searchable images collection)
+- **[Smithsonian Open Access](https://www.si.edu/openaccess)**
+
+## V. Thematic Cultural Systems (Grounded in History)
+
+### A. Religion & Cosmology
+
+- **[Harvard Pluralism Project](https://pluralism.org/)**
+- **[BBC Religions Archive](https://www.bbc.co.uk/religion)** (archived content)
+
+### B. Art & Visual Culture
+
+- **[Smarthistory](https://smarthistory.org/)**
+- **[MET Heilbrunn](https://www.metmuseum.org/toah/)**
+
+### C. Gender, Family, Body
+
+- **[Open Yale: Gender History](https://oyc.yale.edu/history)** (relevant courses, e.g., Early Modern England)
+- **[Stanford Gender History Reader](https://gender.stanford.edu/resources)** (related materials; exact reader may vary)
+
+### D. Everyday Life & Objects
+
+- **[British Museum Collection](https://www.britishmuseum.org/collection)**
+- **[Europeana](https://www.europeana.eu/)**
+
+## VI. Interpretive Lenses (Used After Historical Grounding)
+
+| Lens | Resource |
+| --- | --- |
+| Power & empire | **[Said, _Orientalism_](https://archive.org/details/orientalism00said)** (various editions on Archive.org) |
+| Modernity | **[Berman](https://archive.org/details/allthatissolidm00berm)** (_All That Is Solid Melts into Air_) |
+| Sexuality | **[Foucault](https://archive.org/details/historyofsexuali0000fouc)** (_History of Sexuality_) |
+| Globalization | **[Tomlinson](https://archive.org/details/globalizationcul0000toml)** (_Globalization and Culture_) |
+
 
 ## Congratulations
 
