@@ -85,7 +85,7 @@ Once you have completed sections I–IV in order, you will have a coherent, chro
 
 | Subject | Resource |
 | --- | --- |
-| What is cultural history? | Peter Burke, *What is Cultural History?* (Polity, 3rd ed. recommended; check library or affordable editions) |
+| What is cultural history? | Peter Burke, *[What is Cultural History?](https://archive.org/details/whatisculturalhi0000burk)* (Polity, 3rd ed. recommended; check library or affordable editions) |
 | Key concepts & approaches | [Cultural History – A Very Short Introduction (excerpts or summary via open resources if full text not free)](https://academic.oup.com/book/489) (supplemental) |
 
 ### 2. How Culture and History Work
@@ -160,6 +160,4 @@ Primary sources:
 # Code of conduct
 
 [Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
-
-
 
