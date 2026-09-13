@@ -1,52 +1,67 @@
 # Advanced Topics
 
-- [History of Mentalities, Emotions, and Sensory Regimes](#history-of-mentalities-emotions-and-sensory-regimes) — Explores collective worldviews, affective structures, sensory perception, and microhistorical analysis across eras.
-- [Print Culture, Book History, and the Public Sphere](#print-culture-book-history-and-the-public-sphere) — Examines the sociology of texts, clandestine publishing, the emergence of civil society, and computational literary methods.
-- [The Body, Gender, and the Cultural History of Sexuality](#the-body-gender-and-the-cultural-history-of-sexuality) — Investigates disciplined somatic practices, gendered power systems, non-normative sexualities, and medicalized stigma.
-- [Postcolonial Cultural Formations, Subalternity, and Imperialism](#postcolonial-cultural-formations-subalternity-and-imperialism) — Analyzes imperial representations, archival silences, subaltern agency, and transnational cultural hybridity.
-- [Cultural Memory, Materiality, and Spatial Topographies](#cultural-memory-materiality-and-spatial-topographies) — Studies collective remembrance, traumatic heritage, the social agency of material objects, and spatial practices.
+- [History of Mentalities, Emotions, and the Senses](#history-of-mentalities-emotions-and-the-senses) — Explores cognitive frameworks, historical psychology, affective regimes, and sensory perception across past societies.
+- [Print Culture, Book History, and Digital Publics](#print-culture-book-history-and-digital-publics) — Investigates the material sociology of texts, illicit communication networks, the public sphere, and computational methodologies.
+- [The Body, Gender, and the Cultural History of Sexuality](#the-body-gender-and-the-cultural-history-of-sexuality) — Examines somatic disciplines, biopolitics, gender as an analytical framework, and the historical construction of sexual subjectivities.
+- [Postcolonial Formations, Subalternity, and Imperialism](#postcolonial-formations-subalternity-and-imperialism) — Analyzes colonial discourse, archival silencing, non-elite subaltern agency, and oceanic cultural diaspora.
+- [Cultural Memory, Materiality, and Spatial History](#cultural-memory-materiality-and-spatial-history) — Studies collective remembrance, difficult heritage, the social agency of material objects, and the cultural production of space.
 
-## History of Mentalities, Emotions, and Sensory Regimes
+## History of Mentalities, Emotions, and the Senses
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| *Histoire des Mentalités* and Historical Psychology | Investigates the collective psychological structures, unconscious assumptions, and shared cosmologies of past societies beyond elite intellectual discourse. | Lucien Febvre, *The Problem of Unbelief in the Sixteenth Century: The Religion of Rabelais* (Harvard University Press)<br>- Georges Duby, *The Three Orders: Feudal Society Imagined* (University of Chicago Press)<br>- Jacques Le Goff, *The Medieval Imagination* (University of Chicago Press) |
-| History of Emotions and Emotional Communities | Explores how affective norms, emotional expressions, and feeling states are socially constructed, regulated, and mobilized within political and religious systems. | Barbara H. Rosenwein, *Emotional Communities in the Early Middle Ages* (Cornell University Press)<br>- William M. Reddy, *The Navigation of Feeling: A Framework for the History of Emotions* (Cambridge University Press)<br>- Jan Plamper, *The History of Emotions: An Introduction* (Oxford University Press) |
-| Sensory History and Perceptual Regimes | Examines how historical actors experienced their worlds through soundscapes, olfaction, tactile norms, and shifting visual habits rather than text alone. | Alain Corbin, *The Foul and the Fragrant: Odor and the French Social Imagination* (Harvard University Press)<br>- Mark M. Smith, *Sensing the Past: Seeing, Hearing, Smelling, Tasting, and Touching in History* (University of California Press)<br>- David Howes (ed.), *Empire of the Senses: The Sensual Culture Reader* (Routledge) |
-| Microhistory and the Interpretive Exception | Demonstrates how the intensive forensic analysis of a single marginalized individual, legal trial, or localized incident reveals systemic cultural worldviews. | Carlo Ginzburg, *The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller* (Johns Hopkins University Press)<br>- Giovanni Levi, *Inheriting Power: The Story of an Exorcist in Early Modern Piedmont* (University of Chicago Press)<br>- Natalie Zemon Davis, *The Return of Martin Guerre* (Harvard University Press) |
+This track explores how historical actors understood, felt, and physically experienced their worlds by examining collective psychological limits, emotional standards, sensory habits, and microhistorical anomalies.
 
-## Print Culture, Book History, and the Public Sphere
+*Histoire des Mentalités* and Historical Psychology: [The Problem of Unbelief in the Sixteenth Century: The Religion of Rabelais by Lucien Febvre (Harvard University Press)](https://books.google.com/books?isbn=9780674708266) - Demonstrates how the linguistic and conceptual toolkit of the early modern era made modern religious disbelief cognitively impossible.
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Book History and the Sociology of Texts | Analyzes the material production, circulation, and physical formats of texts to uncover how medium and distribution shape reading practices and cultural reception. | Roger Chartier, *The Order of Books: Readers, Authors, and Libraries in Europe between the Fourteenth and Eighteenth Centuries* (Stanford University Press)<br>- D. F. McKenzie, *Bibliography and the Sociology of Texts* (Cambridge University Press)<br>- Elizabeth L. Eisenstein, *The Printing Press as an Agent of Change* (Cambridge University Press) |
-| Underground Literature, Censorship, and Sedition | Investigates how clandestine publishing circuits, illegal pamphlets, and illicit reading networks undermined authoritarian regimes and fueled revolutionary movements. | Robert Darnton, *The Forbidden Best-Sellers of Pre-Revolutionary France* (W. W. Norton & Company)<br>- Robert Darnton, *The Great Cat Massacre and Other Episodes in French Cultural History* (Basic Books)<br>- Roger Chartier, *The Cultural Origins of the French Revolution* (Duke University Press) |
-| The Bourgeois Public Sphere and Media Shifts | Traces how coffeehouses, salons, periodicals, and literary societies fostered spaces for critical public discourse and ideological transformation in modern civil society. | Jürgen Habermas, *The Structural Transformation of the Public Sphere* (MIT Press)<br>- Craig Calhoun (ed.), *Habermas and the Public Sphere* (MIT Press)<br>- Adrian Johns, *The Nature of the Book: Print and Knowledge in the Making* (University of Chicago Press) |
-| Computational Cultural History and Digital Humanities | Equips researchers to apply corpus analysis, network mapping, and text-mining techniques to detect large-scale cultural patterns across massive historical corpora. | Franco Moretti, *Distant Reading* (Verso)<br>- Matthew L. Jockers, *Macroanalysis: Digital Methods and Literary History* (University of Illinois Press)<br>- [Programming Historian: Digital Methods for Humanists](https://programminghistorian.org/) |
+History of Emotions and Emotional Regimes: [The Navigation of Feeling: A Framework for the History of Emotions by William M. Reddy (Cambridge University Press)](https://books.google.com/books?isbn=9780521803038) - Introduces the foundational theory of emotives and emotional liberty, showing how political orders enforce emotional norms.
+
+Sensory History and Olfactory Perception: [The Foul and the Fragrant: Odor and the French Social Imagination by Alain Corbin (Harvard University Press)](https://books.google.com/books?isbn=9780674311763) - Analyzes how shifting thresholds of disgust and olfactory sensibilities reshaped class boundaries and urban planning in modern France.
+
+Microhistory and Archival Exceptions: [The Return of Martin Guerre by Natalie Zemon Davis (Harvard University Press)](https://books.google.com/books?isbn=9780674766914) - Investigates a celebrated sixteenth-century trial of imposture to demonstrate peasant self-fashioning, domestic negotiation, and evidentiary ambiguity.
+
+## Print Culture, Book History, and Digital Publics
+
+This track analyzes the production, distribution, and consumption of texts, tracing how material media formats, censorship systems, and digital methods shape human communication and political action.
+
+Book History and the Sociology of Texts: [The Order of Books: Readers, Authors, and Libraries in Europe between the Fourteenth and Eighteenth Centuries by Roger Chartier (Stanford University Press)](https://books.google.com/books?isbn=9780804722674) - Explores how the material forms of the written word govern the construction of meaning and the practices of reading.
+
+Underground Literature and Clandestine Publishing: [The Forbidden Best-Sellers of Pre-Revolutionary France by Robert Darnton (W. W. Norton & Company)](https://books.google.com/books?isbn=9780393314427) - Uses publishing and police records to track the smuggling of illicit books and their role in eroding royal legitimacy.
+
+The Bourgeois Public Sphere: [The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society by Jürgen Habermas (MIT Press)](https://books.google.com/books?isbn=9780262581080) - A seminal sociological history tracing how eighteenth-century salons, coffeehouses, and periodicals created a space for rational-critical debate.
+
+Computational Methods and Digital Humanities: [Programming Historian (The Programming Historian Project)](https://programminghistorian.org/) - An open-access platform providing structured, peer-reviewed tutorials in text mining, network analysis, and geospatial mapping for historical research.
 
 ## The Body, Gender, and the Cultural History of Sexuality
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| The Disciplined and Somatic Body | Analyzes how human bodies, gestures, ascetic practices, and physical punishments are organized and transformed by institutional power and religious doctrines. | Michel Foucault, *Discipline and Punish: The Birth of the Prison* (Vintage Books)<br>- Caroline Walker Bynum, *Holy Feast and Holy Fast: The Religious Significance of Food to Medieval Women* (University of California Press)<br>- Marcel Mauss, "Techniques of the Body" (*Economy and Society*) |
-| Gender as an Analytic Category | Deconstructs the historical systems of meaning, symbolic codes, and political hierarchies that produce masculine and feminine roles and identities. | Joan Wallach Scott, *Gender and the Politics of History* (Columbia University Press)<br>- Thomas Laqueur, *Making Sex: Body and Gender from the Greeks to Freud* (Harvard University Press)<br>- Judith Butler, *Gender Trouble: Feminism and the Subversion of Identity* (Routledge) |
-| Queer Temporalities and Sexual Subjectivities | Explores pre-modern and modern variations in sexual desire, categories of deviance, and the cultural emergence of distinct sexual identities and subcultures. | Michel Foucault, *The History of Sexuality, Volume 1: An Introduction* (Vintage Books)<br>- David M. Halperin, *One Hundred Years of Homosexuality: And Other Essays on Greek Love* (Routledge)<br>- George Chauncey, *Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890–1940* (Basic Books) |
-| Cultural Histories of Health, Epidemics, and Stigma | Examines the metaphors, social scapegoating, and moral meanings constructed around contagion, psychiatric madness, and physical disability across historical crises. | Susan Sontag, *Illness as Metaphor and AIDS and Its Metaphors* (Picador)<br>- Roy Porter, *Madness: A Brief History* (Oxford University Press)<br>- Charles E. Rosenberg, *Explaining Epidemics and Other Studies in the History of Medicine* (Cambridge University Press) |
+This track investigates how power, institutions, and cultural narratives shape human corporeality, gender roles, sexual categorizations, and social pathologies over time.
 
-## Postcolonial Cultural Formations, Subalternity, and Imperialism
+The Disciplined Body and Biopolitics: [Discipline and Punish: The Birth of the Prison by Michel Foucault (Vintage Books)](https://books.google.com/books?isbn=9780679752554) - The definitive theoretical exploration of modern bodily surveillance, penal transformation, and institutional disciplinary techniques.
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Orientalism and Imperial Imaginaries | Critiques the textual, visual, and academic apparatuses used by imperial powers to construct colonized societies as exotic, feminine, or inherently irrational. | Edward W. Said, *Orientalism* (Vintage Books)<br>- Edward W. Said, *Culture and Imperialism* (Vintage Books)<br>- Mary Louise Pratt, *Imperial Eyes: Travel Writing and Transculturation* (Routledge) |
-| Subalternity and Archival Silences | Develops methodologies to recover non-elite, indigenous, and subaltern voices that were actively excluded, silenced, or distorted within colonial administrative archives. | Gayatri Chakravorty Spivak, "Can the Subaltern Speak?" (in *Marxism and the Interpretation of Culture*)<br>- Ranajit Guha, *Elementary Aspects of Peasant Insurgency in Colonial India* (Duke University Press)<br>- Michel-Rolph Trouillot, *Silencing the Past: Power and the Production of History* (Beacon Press) |
-| The Black Atlantic, Diaspora, and Creolization | Investigates the transnational cultural, musical, and religious syncretisms created by enslaved and migrant populations across oceanic circuits of exchange. | Paul Gilroy, *The Black Atlantic: Modernity and Double Consciousness* (Harvard University Press)<br>- Stuart Hall, *Selected Writings on Race and Difference* (Duke University Press)<br>- Homi K. Bhabha, *The Location of Culture* (Routledge) |
-| Intimate Empires and Colonial Governance | Analyzes how imperial rule operated at the micro-level through the regulation of domesticity, interracial sexuality, family structures, and moral sentiments. | Ann Laura Stoler, *Race and the Education of Desire: Foucault's History of Sexuality and the Colonial Order of Things* (Duke University Press)<br>- Ann Laura Stoler, *Along the Archival Grain: Epistemic Anxieties and Colonial Common Sense* (Princeton University Press) |
+Gender as an Analytical Category: [Gender and the Politics of History by Joan Wallach Scott (Columbia University Press)](https://books.google.com/books?isbn=9780231118576) - Establishes gender as a fundamental historical category that articulates relationships of power across political and labor institutions.
 
-## Cultural Memory, Materiality, and Spatial Topographies
+Queer Geographies and Sexual Subcultures: [Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890–1940 by George Chauncey (Basic Books)](https://books.google.com/books?isbn=9780465026210) - Refutes the myth of the pre-Stonewall isolated closet by documenting the visible, complex queer public cultures of early twentieth-century New York.
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Collective Memory and *Lieux de Mémoire* | Investigates how communities construct, institutionalize, and contest historical memory through national commemorations, public rituals, and monuments. | Pierre Nora (ed.), *Realms of Memory: Rethinking the French Past* (Columbia University Press)<br>- Maurice Halbwachs, *On Collective Memory* (University of Chicago Press)<br>- Jan Assmann, *Cultural Memory and Early Civilization: Writing, Remembrance, and Political Imagination* (Cambridge University Press) |
-| Traumatic Heritage, Restitution, and Iconoclasm | Analyzes how societies negotiate difficult pasts, state terror, monument removal, dark tourism, and the ethical repatriation of colonial loot. | Aleida Assmann, *Shadows of Trauma: Memory and the Politics of Postwar Identity* (Fordham University Press)<br>- Andreas Huyssen, *Present Pasts: Urban Palimpsests and the Politics of Memory* (Stanford University Press)<br>- Dan Hicks, *The Brutish Museums: The Benin Bronzes, Colonial Violence and Cultural Restitution* (Pluto Press) |
-| Material Culture and Object Biographies | Treats physical artifacts and consumables not as passive tools, but as active participants in social relations with evolving cultural meanings over their lifespans. | Arjun Appadurai (ed.), *The Social Life of Things: Commodities in Cultural Perspective* (Cambridge University Press)<br>- Daniel Miller (ed.), *Materiality* (Duke University Press)<br>- Igor Kopytoff, "The Cultural Biography of Things: Commoditization as Process" (in *The Social Life of Things*) |
-| Spatial History and Everyday Practices | Explores how human movement, urban planning, rituals, and artistic expressions produce cultural space and transform physical environments into meaningful landscapes. | Michel de Certeau, *The Practice of Everyday Life* (University of California Press)<br>- Simon Schama, *Landscape and Memory* (Vintage Books)<br>- Henri Lefebvre, *The Production of Space* (Wiley-Blackwell) |
+Cultural Histories of Disease and Stigma: [Illness as Metaphor and AIDS and Its Metaphors by Susan Sontag (Picador)](https://books.google.com/books?isbn=9780312420130) - Examines how cultures impose moral blame, military rhetoric, and aesthetic baggage onto physical disease.
+
+## Postcolonial Formations, Subalternity, and Imperialism
+
+This track examines how imperial regimes constructed knowledge about colonized populations, how subaltern communities contested administrative power, and how cross-cultural contact produced diasporic cultures.
+
+Orientalism and Imperial Discourse: [Orientalism by Edward W. Said (Vintage Books)](https://books.google.com/books?isbn=9780394740676) - The foundational critique of how Western scholarship, literature, and art systematically constructed the Orient as an exotic and subjugated object.
+
+Subalternity and Archival Power: [Silencing the Past: Power and the Production of History by Michel-Rolph Trouillot (Beacon Press)](https://books.google.com/books?isbn=9780807080535) - Analyzes the mechanics of historical erasure across source creation, archival preservation, and narrative assembly using the Haitian Revolution.
+
+The Black Atlantic and Diasporic Modernity: [The Black Atlantic: Modernity and Double Consciousness by Paul Gilroy (Harvard University Press)](https://books.google.com/books?isbn=9780674076068) - Uses the transnational movements of people, intellectual traditions, and music across the Atlantic to rethink the history of modernity outside national boundaries.
+
+Colonial Epistemology and Archival Ethnography: [Along the Archival Grain: Epistemic Anxieties and Colonial Common Sense by Ann Laura Stoler (Princeton University Press)](https://books.google.com/books?isbn=9780691146362) - Demonstrates how to read colonial bureaucratic records not as factual repositories, but as sites of imperial sentiment, anxiety, and moral doubt.
+
+## Cultural Memory, Materiality, and Spatial History
+
+This track investigates how societies commemorate the past, grapple with traumatic legacies, interact with physical things, and invest landscapes and built environments with cultural significance.
+
+Collective Memory and Commemorative Sites: [Realms of Memory: Rethinking the French Past, Volume 1: Conflicts and Divisions edited by Pierre Nora (Columbia University Press)](https://books.google.com/books?isbn=9780231084048) - Articulates the concept of *lieux de mémoire* (sites of memory) to demonstrate where collective remembrance crystallizes when living memory fades.
+
+Traumatic Heritage and Restitution: [The Brutish Museums: The Benin Bronzes, Colonial Violence and Cultural Restitution by Dan Hicks (Pluto Press)](https://books.google.com/books?isbn=9780745341767) - Interrogates the ongoing display of imperial plunder in Western institutions, framing museums as weapons of colonial violence and sites for ethical restitution.
+
+Material Culture and Commodity Biographies: [The Social Life of Things: Commodities in Cultural Perspective edited by Arjun Appadurai (Cambridge University Press)](https://books.google.com/books?isbn=9780521357265) - Establishes the methodology of object biography to reveal how physical things accumulate and alter social meaning as they circulate.
+
+Spatial Practice and Everyday Resistance: [The Practice of Everyday Life by Michel de Certeau (University of California Press)](https://books.google.com/books?isbn=9780520271456) - Theorizes everyday tactics such as walking and reading as subtle forms of spatial and cultural resistance against dominant institutional structures.

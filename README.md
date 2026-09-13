@@ -3,32 +3,10 @@ title: Hocbigg - Cultural History
 description: Path to a free self-taught education in Cultural History!
 ---
 
-# Contents
 
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+# Introduction
 
 The Cultural History curriculum is a complete education in Cultural History using online materials.
-
-## Organization
-
-This repository is organized into 2 main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -42,122 +20,73 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [r/history](https://www.reddit.com/r/history/) (General history discussions, frequently including cultural aspects, everyday life, and long-term cultural evolution)
 - [Cultures of History Forum](https://www.cultures-of-history.uni-jena.de/) (Academic-oriented platform focused on cultures of history, memory, and historiography in Central/Eastern/Southeastern Europe and beyond)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/cultural-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+# Cultural History Core Curriculum
 
-- [Foundations of Cultural History](#foundations-of-cultural-history)
-    - [Introduction to Cultural History](#introduction-to-cultural-history)
-    - [How Culture and History Work](#how-culture-and-history-work)
-    - [How We Read Cultural Evidence](#how-we-read-cultural-evidence)
-- [Global Cultural History — Before 1500](#global-cultural-history--before-1500)
-    - [Ancient and Classical Worlds](#ancient-and-classical-worlds)
-    - [Medieval Global Cultures (500–1500)](#medieval-global-cultures-5001500)
-- [Global Cultural History — 1500–1800](#global-cultural-history--15001800)
-    - [Early Modern Encounters, Empires, and Exchange (1500–1800)](#early-modern-encounters-empires-and-exchange-15001800)
-- [Global Cultural History — 1800–Present](#global-cultural-history--1800present)
-    - [Modern and Contemporary Cultural Worlds (1800–Present)](#modern-and-contemporary-cultural-worlds-1800present)
+## Theories and Concepts in Cultural History
 
-## How to use this curriculum
+This subject examines the theoretical development of cultural history, the historiographical "cultural turn," and core interpretive concepts including mentalities, symbolic anthropology, and discourse analysis.
 
-### Core Sections
+[What is Cultural History? by Peter Burke (Polity)](https://books.google.com/books?isbn=9781509522217) - Start with this concise foundational roadmap, which surveys classic cultural history, the Annales tradition, the New Cultural History, and contemporary twenty-first-century directions.
 
-These sections form the necessary backbone of the discipline. Study them in this exact order:
+[The Cultural History Reader edited by Peter McCaffery and Ben Marsden (Routledge)](https://books.google.com/books?isbn=9780415520430) - A complementary anthology to read alongside Burke, pairing seminal excerpts from Jacob Burckhardt, Johan Huizinga, and Michel Foucault with guided contextual introductions.
 
-- Foundations of Cultural History
-  Start here. This section teaches you the basic concepts, historiographical traditions, and methods for analyzing textual, visual, and material evidence that you will use throughout the entire curriculum.
+[The New Cultural History edited by Lynn Hunt (University of California Press)](https://books.google.com/books?isbn=9780520064287) - An alternative reader to McCaffery and Marsden that focuses more specifically on how Anglo-American historians adopted literary theory and symbolic anthropology during the 1980s.
 
-- Global Cultural History — Before 1500
-  Move to this section next. It provides the foundational cross-cultural context of cosmologies, mythic structures, religions, and early urban civilizations across world regions.
+[The Interpretation of Cultures by Clifford Geertz (Basic Books)](https://books.google.com/books?isbn=9780465097197) - Read the opening chapter, "Thick Description," directly after Burke as the seminal primary text defining culture as an interconnected, interpretable web of social symbols.
 
-- Global Cultural History — 1500–1800
-  Continue directly after the pre-1500 survey. This covers the transformative era of global oceanic encounters, the printing revolution, religious reformations, and early modern cross-cultural exchange.
+## Interpreting Cultural Evidence: Images, Objects, and Texts
 
-- Global Cultural History — 1800–Present
-  Finish the historical spine here. This section examines industrial mass culture, imperialism, postcolonial representations, modern media, and contemporary memory politics.
+This subject introduces the practical interpretive frameworks cultural historians use to analyze non-traditional historical evidence, including visual artwork, material artifacts, and microhistorical archival records.
 
-Once you have completed these sections in order, you will possess a coherent, global understanding of cultural history and the analytical tools required to interpret diverse historical expressions.
+[Eyewitnessing: The Uses of Images as Historical Evidence by Peter Burke (Reaktion Books)](https://books.google.com/books?isbn=9781789140613) - The primary methodological textbook for visual evidence, providing practical rules for evaluating paintings, iconography, and photography as historical sources without treating them as direct reflections of reality.
 
-## Foundations of Cultural History
+[Ways of Seeing by John Berger (BBC / YouTube)](https://www.youtube.com/watch?v=8wxRxSfhw6I) - A free four-part television series that serves as an audiovisual companion to Burke, demonstrating how to decode the hidden ideologies, property relations, and gender roles embedded in visual culture.
 
-### Introduction to Cultural History
+[A History of the World in 100 Objects (BBC Radio 4 / British Museum)](https://www.bbc.co.uk/programmes/b00nrtd2) - A complementary 100-part audio series shifting focus from visual imagery to material culture, demonstrating how physical artifacts reveal the spiritual values, technologies, and social systems of past societies.
 
-| Subject | Resource |
-| --- | --- |
-| What is cultural history? | Peter Burke, *[What is Cultural History?](https://archive.org/details/whatisculturalhi0000burk)* (Polity, 3rd ed.) |
-| Historiography & the "Cultural Turn" | Lynn Hunt (ed.), *The New Cultural History* (University of California Press) + Martin Davies, *[Cultural History: A Very Short Introduction](https://academic.oup.com/book/489)* (Oxford University Press) |
+[The Great Cat Massacre and Other Episodes in French Cultural History by Robert Darnton (Basic Books)](https://books.google.com/books?isbn=9780465027002) - A complementary microhistorical case study that shows how to apply ethnographic methods to textual folklore, archival police files, and urban rituals.
 
-### How Culture and History Work
+## Ancient and Classical Cultural Worlds
 
-| Subject | Resource |
-| --- | --- |
-| Historical method, evidence, & interpretation | John Tosh, *The Pursuit of History* (Routledge) / Ludmilla Jordanova, *History in Practice* (Bloomsbury) |
-| Culture as a symbolic system & interpretive framework | Clifford Geertz, "Thick Description: Toward an Interpretive Theory of Culture" (in *The Interpretation of Cultures*) + [MIT OpenCourseWare: Anthropology](https://ocw.mit.edu/courses/anthropology/) |
+This subject investigates the mythic cosmologies, religious rituals, sacred monarchies, and civic life of ancient Afro-Eurasian and early American civilizations.
 
-### How We Read Cultural Evidence
+[World History, Volume 1: to 1500 (OpenStax)](https://openstax.org/details/books/world-history-volume-1) - Read Chapters 1 through 8 as your foundational chronological spine, establishing the political, geographical, and economic timelines of ancient civilizational centers.
 
-| Domain | Resource |
-| --- | --- |
-| Texts, myths, & religious traditions | [Internet Sacred Text Archive](https://sacred-texts.com/) |
-| Visual culture & iconography | Peter Burke, *Eyewitnessing: The Uses of Images as Historical Evidence* (Reaktion Books) + [MET Museum Heilbrunn Timeline of Art History](https://www.metmuseum.org/toah/) |
-| Material culture & everyday objects | Neil MacGregor, [BBC Radio 4: A History of the World in 100 Objects](https://www.bbc.co.uk/programmes/b00nrtd2) (British Museum partnership) |
-| Architecture, sacred space, & cities | [Smarthistory](https://smarthistory.org/) |
+[Introduction to Ancient Greek History (Open Yale Courses / Donald Kagan)](https://oyc.yale.edu/classics/clcv-205) - A complementary 24-lecture collegiate course to watch alongside the OpenStax reading, offering a deep audiovisual case study of the civic rituals, political culture, and religious life of classical antiquity.
 
-## Global Cultural History — Before 1500
+[The Sacred and the Profane: The Nature of Religion by Mircea Eliade (Houghton Mifflin Harcourt)](https://books.google.com/books?isbn=9780156792011) - A theoretical companion to the historical narrative, providing the interpretive concepts needed to understand how traditional societies structured their existence around sacred space, cyclical time, and foundational myths.
 
-### Ancient and Classical Worlds
+## Medieval and Post-Classical Cultural Worlds (500–1500)
 
-| Region | Primary & Secondary Sources |
-| --- | --- |
-| Mesopotamia & Egypt | [Internet Ancient History Sourcebook](https://sourcebooks.fordham.edu/ancient/asbook.asp) |
-| India & South Asia | [Fordham Indian History Sourcebook](https://sourcebooks.fordham.edu/india/indiasbook.asp) |
-| China & East Asia | [Chinese Text Project](https://ctext.org/) |
-| Africa | [UNESCO General History of Africa Vol. I–II](https://en.unesco.org/general-history-africa) |
-| Americas | [Dumbarton Oaks Pre-Columbian Studies](https://www.doaks.org/research/pre-columbian) |
+This subject explores the religious syntheses, monastic traditions, courtly cultures, and intercultural networks that defined Afro-Eurasian and American societies in the post-classical era.
 
-Core Narrative: [OpenStax World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1)
+[World History, Volume 1: to 1500 (OpenStax)](https://openstax.org/details/books/world-history-volume-1) - Read Chapters 9 through 17 to establish the global post-classical foundation, tracing Islamic caliphates, Tang and Song dynasty China, trans-Saharan trade, and the Mongol exchange.
 
-### Medieval Global Cultures (500–1500)
+[The Early Middle Ages, 284–1000 (Open Yale Courses / Paul Freedman)](https://oyc.yale.edu/history/hist-210) - A complementary 22-lecture recorded course that deepens the European and Mediterranean chapters of OpenStax by exploring the conversion of barbarian kingdoms, monastic spirituality, and early medieval popular piety.
 
-| Civilizational Sphere | Primary & Secondary Sources |
-| --- | --- |
-| Islamic world | [Internet Islamic History Sourcebook](https://sourcebooks.fordham.edu/islam/islamsbook.asp) + [Aga Khan Museum Online Collections](https://agakhanmuseum.org/) |
-| Europe & Byzantium | [Yale HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210) + [Internet Medieval Sourcebook](https://sourcebooks.fordham.edu/sbook.asp) |
-| East Asia | [Asia for Educators: Tang and Song Dynasties](http://afe.easia.columbia.edu/) (Columbia University) + [Chinese Text Project](https://ctext.org/) |
-| Africa | [UNESCO General History of Africa Vol. III–IV](https://en.unesco.org/general-history-africa) + [Internet African History Sourcebook](https://sourcebooks.fordham.edu/africa/africasbook.asp) |
-| Americas | [FAMSI - Foundation for the Advancement of Mesoamerican Studies](http://www.famsi.org/) + [Dumbarton Oaks Pre-Columbian Studies](https://www.doaks.org/research/pre-columbian) |
+[The Autumn of the Middle Ages by Johan Huizinga (University of Chicago Press)](https://books.google.com/books?isbn=9780226359946) - A seminal monograph to read after completing the general surveys, offering an intimate investigation into late-medieval emotional life, chivalric pageantry, and religious sensibilities (a free, though abridged, 1924 public-domain translation is available on the Internet Archive under the title *The Waning of the Middle Ages*).
 
-Core Narrative: [OpenStax World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1) (Medieval & Post-Classical Chapters)
+## Early Modern Cultural Worlds: Encounters, Print, and Reformations (1500–1800)
 
-## Global Cultural History — 1500–1800
+This subject covers the cultural consequences of global oceanic contact, the printing revolution, religious fragmentation, and the coexistence of popular folklore with emerging scientific worldviews.
 
-### Early Modern Encounters, Empires, and Exchange (1500–1800)
+[World History, Volume 2: from 1400 (OpenStax)](https://openstax.org/details/books/world-history-volume-2) - Study Chapters 1 through 8 to establish the global historical context covering maritime empires, the Protestant and Catholic Reformations, gunpowder empires, and the Enlightenment.
 
-| Theme / Region | Primary & Secondary Sources |
-| --- | --- |
-| Early Modern Europe (Print culture, Reformations, Enlightenment) | [Internet Modern History Sourcebook](https://sourcebooks.fordham.edu/mod/modsbook.asp) + [Smarthistory](https://smarthistory.org/) |
-| The Atlantic World & Colonial Encounters (Syncretism, casta systems, creolization) | [John Carter Brown Library Digital Collections](https://jcblibrary.org/) |
-| Islamic Gunpowder Empires (Ottoman, Safavid, Mughal arts & court culture) | [Internet Islamic History Sourcebook](https://sourcebooks.fordham.edu/islam/islamsbook.asp) + [MET Museum Heilbrunn Timeline of Art History](https://www.metmuseum.org/toah/) |
-| East Asia (Ming/Qing China & Tokugawa Japan: Urban arts, print, Neo-Confucianism) | [Asia for Educators: Early Modern Period](http://afe.easia.columbia.edu/) (Columbia University) |
-| Africa & the Diaspora (Kingdoms, oral epics, and Atlantic cultural transfers) | [UNESCO General History of Africa Vol. V](https://en.unesco.org/general-history-africa) + [Internet African History Sourcebook](https://sourcebooks.fordham.edu/africa/africasbook.asp) |
+[Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (Open Yale Courses / Keith Wrightson)](https://oyc.yale.edu/history/hist-251) - An audiovisual lecture series complementing the OpenStax survey, providing a granular social and cultural analysis of popular literacy, parish life, and changing mentalities in early modern communities.
 
-Core Narrative: [OpenStax World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2) (Chapters 1–8)
+[The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller by Carlo Ginzburg (Johns Hopkins University Press)](https://books.google.com/books?isbn=9780801843877) - A complementary microhistorical study to read alongside Wrightson's lectures, illustrating how non-elite individuals synthesized printed religious ideas with ancient peasant folklore under inquisitorial pressure.
 
-## Global Cultural History — 1800–Present
+[The Mestizo Mind: The Intellectual Dynamics of Colonization and Globalization by Serge Gruzinski (Routledge)](https://books.google.com/books?isbn=9780415928793) - A complementary transnational study expanding the focus beyond Europe, examining how indigenous and Spanish worldviews, visual regimes, and religious symbols synthesized in colonial Mexico.
 
-### Modern and Contemporary Cultural Worlds (1800–Present)
+## Modern and Contemporary Cultural Worlds (1800–Present)
 
-| Theme / Region | Primary & Secondary Sources |
-| --- | --- |
-| Industrialization, Urbanization, & Everyday Life (Class, consumerism, domesticity) | [British Library Collection Items](https://www.bl.uk/collection-items) |
-| Imperialism, Nationalism, & Postcolonial Representations (Imagined communities, racial ideology) | [Internet Modern History Sourcebook: Imperialism & Decolonization](https://sourcebooks.fordham.edu/mod/modsbook.asp) |
-| Mass Culture, Visual Media, & Ideology (Cinema, propaganda, Cold War cultures) | [Wilson Center Digital Archive](https://digitalarchive.wilsoncenter.org/) + [Smithsonian Open Access](https://www.si.edu/openaccess) |
-| Memory, Heritage, & Identity Politics (Memorialization, museums, digital culture) | [Smarthistory: Modern and Contemporary Art & Culture](https://smarthistory.org/) |
+This subject examines industrial everyday life, the invention of national identities, mass media communications, visual ideology, and collective historical memory in the nineteenth and twentieth centuries.
 
-Core Narrative: [OpenStax World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2) (Chapters 9–15)
+[World History, Volume 2: from 1400 (OpenStax)](https://openstax.org/details/books/world-history-volume-2) - Read Chapters 9 through 15 to establish the modern global historical timeline, focusing on industrial urbanization, imperial expansion, mass ideological movements, and decolonization.
 
-# Code of conduct
+[European Civilization, 1648–1945 (Open Yale Courses / John Merriman)](https://oyc.yale.edu/history/hist-202) - A 24-lecture collegiate course complementing the OpenStax chapters, providing rich cultural narratives on industrial working-class everyday life, urban culture, and the psychic impact of the World Wars.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Imagined Communities: Reflections on the Origin and Spread of Nationalism by Benedict Anderson (Verso)](https://books.google.com/books?isbn=9781784786755) - A seminal theoretical study to read after the historical surveys, explaining how print-capitalism, standardized languages, and mass daily media constructed the modern sense of national belonging.
+
+[Representation: Cultural Representations and Signifying Practices edited by Stuart Hall (SAGE / Open University)](https://books.google.com/books?isbn=9781849205634) - A complementary applied textbook to use alongside Anderson, providing practical analytical tools for decoding modern mass media, advertising images, and racial representations.
