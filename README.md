@@ -3,14 +3,13 @@ title: Hocbigg - Cultural History
 description: Path to a free self-taught education in Cultural History!
 ---
 
-
-# Introduction
+## Introduction
 
 The Cultural History curriculum is a complete education in Cultural History using online materials.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
-# Communities
+## Communities
 
 - Forums:
     - [Historum - Arts & Culture](https://historum.com/arts-culture/) (Active discussions on cultural history, art, literature, mythology, and popular culture)
@@ -21,9 +20,9 @@ The Cultural History curriculum is a complete education in Cultural History usin
 - [Cultures of History Forum](https://www.cultures-of-history.uni-jena.de/) (Academic-oriented platform focused on cultures of history, memory, and historiography in Central/Eastern/Southeastern Europe and beyond)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/cultural-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 
-# Cultural History Core Curriculum
+## Curriculum
 
-## Theories and Concepts in Cultural History
+### Theories and Concepts in Cultural History
 
 This subject examines the theoretical development of cultural history, the historiographical "cultural turn," and core interpretive concepts including mentalities, symbolic anthropology, and discourse analysis.
 
@@ -35,7 +34,7 @@ This subject examines the theoretical development of cultural history, the histo
 
 [The Interpretation of Cultures by Clifford Geertz (Basic Books)](https://books.google.com/books?isbn=9780465097197) - Read the opening chapter, "Thick Description," directly after Burke as the seminal primary text defining culture as an interconnected, interpretable web of social symbols.
 
-## Interpreting Cultural Evidence: Images, Objects, and Texts
+### Interpreting Cultural Evidence: Images, Objects, and Texts
 
 This subject introduces the practical interpretive frameworks cultural historians use to analyze non-traditional historical evidence, including visual artwork, material artifacts, and microhistorical archival records.
 
@@ -47,7 +46,7 @@ This subject introduces the practical interpretive frameworks cultural historian
 
 [The Great Cat Massacre and Other Episodes in French Cultural History by Robert Darnton (Basic Books)](https://books.google.com/books?isbn=9780465027002) - A complementary microhistorical case study that shows how to apply ethnographic methods to textual folklore, archival police files, and urban rituals.
 
-## Ancient and Classical Cultural Worlds
+### Ancient and Classical Cultural Worlds
 
 This subject investigates the mythic cosmologies, religious rituals, sacred monarchies, and civic life of ancient Afro-Eurasian and early American civilizations.
 
@@ -57,7 +56,7 @@ This subject investigates the mythic cosmologies, religious rituals, sacred mona
 
 [The Sacred and the Profane: The Nature of Religion by Mircea Eliade (Houghton Mifflin Harcourt)](https://books.google.com/books?isbn=9780156792011) - A theoretical companion to the historical narrative, providing the interpretive concepts needed to understand how traditional societies structured their existence around sacred space, cyclical time, and foundational myths.
 
-## Medieval and Post-Classical Cultural Worlds (500–1500)
+### Medieval and Post-Classical Cultural Worlds (500–1500)
 
 This subject explores the religious syntheses, monastic traditions, courtly cultures, and intercultural networks that defined Afro-Eurasian and American societies in the post-classical era.
 
@@ -67,7 +66,7 @@ This subject explores the religious syntheses, monastic traditions, courtly cult
 
 [The Autumn of the Middle Ages by Johan Huizinga (University of Chicago Press)](https://books.google.com/books?isbn=9780226359946) - A seminal monograph to read after completing the general surveys, offering an intimate investigation into late-medieval emotional life, chivalric pageantry, and religious sensibilities (a free, though abridged, 1924 public-domain translation is available on the Internet Archive under the title *The Waning of the Middle Ages*).
 
-## Early Modern Cultural Worlds: Encounters, Print, and Reformations (1500–1800)
+### Early Modern Cultural Worlds: Encounters, Print, and Reformations (1500–1800)
 
 This subject covers the cultural consequences of global oceanic contact, the printing revolution, religious fragmentation, and the coexistence of popular folklore with emerging scientific worldviews.
 
@@ -79,7 +78,7 @@ This subject covers the cultural consequences of global oceanic contact, the pri
 
 [The Mestizo Mind: The Intellectual Dynamics of Colonization and Globalization by Serge Gruzinski (Routledge)](https://books.google.com/books?isbn=9780415928793) - A complementary transnational study expanding the focus beyond Europe, examining how indigenous and Spanish worldviews, visual regimes, and religious symbols synthesized in colonial Mexico.
 
-## Modern and Contemporary Cultural Worlds (1800–Present)
+### Modern and Contemporary Cultural Worlds (1800–Present)
 
 This subject examines industrial everyday life, the invention of national identities, mass media communications, visual ideology, and collective historical memory in the nineteenth and twentieth centuries.
 
