@@ -5,11 +5,28 @@ description: Path to a free self-taught education in Cultural History!
 
 ## Introduction
 
-The Cultural History curriculum is a complete education in Cultural History using online materials.
+Cultural history investigates how human beings have made sense of their world across time. While political and economic histories traditionally focus on state institutions, military conflicts, and trade metrics, cultural history examines the shared mentalities, symbolic systems, rituals, visual languages, and everyday objects through which human communities construct reality. Studying this discipline trains you to reconstruct the inner lives, unspoken assumptions, and imaginative horizons of past societies—from ancient cosmologies and medieval court rituals to print revolutions and modern mass media.
 
-**[How to contribute](/CONTRIBUTING.html)**
+This curriculum is designed for independent, self-directed learners with no prior formal background in historical research or academic theory. It assumes no specialized preparation: foundational concepts such as mentalities, semiotics, thick description, and representation are introduced directly through accessible guides, open textbooks, and recorded collegiate lectures. 
 
-## Communities
+### Structure and Sequencing
+
+The curriculum is structured into two complementary stages and should be completed in sequence:
+
+- **Interpretive Foundations:** Begin with *Theories and Concepts in Cultural History* and *Interpreting Cultural Evidence: Images, Objects, and Texts*. These modules equip you with the essential interpretive toolkit of the discipline, demonstrating how historians move beyond surface-level narratives to interrogate visual art, material artifacts, folklore, and microhistorical trial records.
+- **The Global Chronological Spine:** Once you have acquired these analytical tools, proceed through the four chronological eras in order: *Ancient and Classical*, *Medieval and Post-Classical*, *Early Modern*, and *Modern and Contemporary*. Each era pairs a comprehensive, open-access global textbook chapter sequence with collegiate video lectures and landmark monographs, anchoring broad historical transitions to focused cultural case studies.
+
+### Scope
+
+This page covers only the essential core of the discipline—the central concepts, evidence-reading methods, and broad civilizational narratives that every learner needs before specializing. It avoids generic academic research mechanics, thesis-writing manuals, and hyper-specialized subfields.
+
+After completing this core foundation, you can branch out into the companion guides in this series:
+
+- Explore [Advanced Topics](advanced_topics.md) to delve into specialized subfields, including the history of emotions, sensory history, print culture, the body and gender, and postcolonial archival silences.
+- Consult [Readings](extras/readings.md) for a curated bibliography of landmark monographs, field-shaping essays, and theoretical manifestos.
+- Browse [Courses](extras/courses.md) for extended lecture series, OpenCourseWare curricula, and audiovisual deep dives.
+
+### Communities
 
 - Forums:
     - [Historum - Arts & Culture](https://historum.com/arts-culture/) (Active discussions on cultural history, art, literature, mythology, and popular culture)

@@ -1,5 +1,7 @@
 # Advanced Topics
 
+Learners are encouraged to select one or two tracks aligned with their interests rather than attempting to complete all tracks.
+
 - [History of Mentalities, Emotions, and the Senses](#history-of-mentalities-emotions-and-the-senses) — Explores cognitive frameworks, historical psychology, affective regimes, and sensory perception across past societies.
 - [Print Culture, Book History, and Digital Publics](#print-culture-book-history-and-digital-publics) — Investigates the material sociology of texts, illicit communication networks, the public sphere, and computational methodologies.
 - [The Body, Gender, and the Cultural History of Sexuality](#the-body-gender-and-the-cultural-history-of-sexuality) — Examines somatic disciplines, biopolitics, gender as an analytical framework, and the historical construction of sexual subjectivities.
