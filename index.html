@@ -1,286 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Cultural History</title>
-<link rel="stylesheet" href="/cultural-history/style.css">
-<meta name="description" content="Path to a free self-taught education in Cultural History!">
+  <title>Hocbigg - Cultural History</title>
+  <meta name="description" content="Path to a free self-taught education in Cultural History!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/cultural-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/cultural-history/">
+  <meta property="og:title" content="Hocbigg - Cultural History">
+  <meta property="og:description" content="Path to a free self-taught education in Cultural History!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/cultural-history/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Cultural History">
-<meta property="og:description" content="Path to a free self-taught education in Cultural History!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/cultural-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/cultural-history/">Cultural-History</a>
-<a href="/cultural-history/advanced_topics.html">Advanced Topics</a>
-<a href="/cultural-history/extras/courses.html">Extra Courses</a>
-<a href="/cultural-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/cultural-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/cultural-history/">Cultural History</a></li>
+      <li><a href="/cultural-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/cultural-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/cultural-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/cultural-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Cultural History</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Cultural History!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-09-17">2026-09-17</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Cultural history investigates how human beings have made sense of their world across time. While political and economic histories traditionally focus on state institutions, military conflicts, and trade metrics, cultural history examines the shared mentalities, symbolic systems, rituals, visual languages, and everyday objects through which human communities construct reality. Studying this discipline trains you to reconstruct the inner lives, unspoken assumptions, and imaginative horizons of past societies—from ancient cosmologies and medieval court rituals to print revolutions and modern mass media.</p>
+<p>This curriculum is designed for independent, self-directed learners with no prior formal background in historical research or academic theory. It assumes no specialized preparation: foundational concepts such as mentalities, semiotics, thick description, and representation are introduced directly through accessible guides, open textbooks, and recorded collegiate lectures. </p>
+<h3 id="structure-and-sequencing">Structure and Sequencing</h3>
+<p>The curriculum is structured into two complementary stages and should be completed in sequence:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Interpretive Foundations:</strong> Begin with <em>Theories and Concepts in Cultural History</em> and <em>Interpreting Cultural Evidence: Images, Objects, and Texts</em>. These modules equip you with the essential interpretive toolkit of the discipline, demonstrating how historians move beyond surface-level narratives to interrogate visual art, material artifacts, folklore, and microhistorical trial records.</li>
+<li><strong>The Global Chronological Spine:</strong> Once you have acquired these analytical tools, proceed through the four chronological eras in order: <em>Ancient and Classical</em>, <em>Medieval and Post-Classical</em>, <em>Early Modern</em>, and <em>Modern and Contemporary</em>. Each era pairs a comprehensive, open-access global textbook chapter sequence with collegiate video lectures and landmark monographs, anchoring broad historical transitions to focused cultural case studies.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Cultural History curriculum is a complete education in Cultural History using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into 2 main components:</p>
+<h3 id="scope">Scope</h3>
+<p>This page covers only the essential core of the discipline—the central concepts, evidence-reading methods, and broad civilizational narratives that every learner needs before specializing. It avoids generic academic research mechanics, thesis-writing manuals, and hyper-specialized subfields.</p>
+<p>After completing this core foundation, you can branch out into the companion guides in this series:</p>
 <ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
+<li>Explore <a href="advanced_topics.html">Advanced Topics</a> to delve into specialized subfields, including the history of emotions, sensory history, print culture, the body and gender, and postcolonial archival silences.</li>
+<li>Consult <a href="extras/readings.html">Readings</a> for a curated bibliography of landmark monographs, field-shaping essays, and theoretical manifestos.</li>
+<li>Browse <a href="extras/courses.html">Courses</a> for extended lecture series, OpenCourseWare curricula, and audiovisual deep dives.</li>
 </ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Forums:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://historum.com/arts-culture/">Historum - Arts &amp; Culture</a> (Active discussions on cultural history, art, literature, mythology, and popular culture)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://historum.com/">Historum Main History Forum</a> (Broad history forum with dedicated sections for cultural and related topics)</li>
+<li><a href="https://historum.com/arts-culture/" target="_blank" rel="noopener noreferrer">Historum - Arts &amp; Culture</a> (Active discussions on cultural history, art, literature, mythology, and popular culture)</li>
+<li><a href="https://historum.com/" target="_blank" rel="noopener noreferrer">Historum Main History Forum</a> (Broad history forum with dedicated sections for cultural and related topics)</li>
 </ul>
 </li>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskHistorians/">r/AskHistorians</a> (Highly active, expert-moderated Q&amp;A for in-depth historical questions, including strong coverage of cultural history, anthropology, and material culture)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/history/">r/history</a> (General history discussions, frequently including cultural aspects, everyday life, and long-term cultural evolution)</li>
+<li><a href="https://www.reddit.com/r/AskHistorians/" target="_blank" rel="noopener noreferrer">r/AskHistorians</a> (Highly active, expert-moderated Q&amp;A for in-depth historical questions, including strong coverage of cultural history, anthropology, and material culture)</li>
+<li><a href="https://www.reddit.com/r/history/" target="_blank" rel="noopener noreferrer">r/history</a> (General history discussions, frequently including cultural aspects, everyday life, and long-term cultural evolution)</li>
 </ul>
 </li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.cultures-of-history.uni-jena.de/">Cultures of History Forum</a> (Academic-oriented platform focused on cultures of history, memory, and historiography in Central/Eastern/Southeastern Europe and beyond)</li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/cultural-history/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li><a href="https://www.cultures-of-history.uni-jena.de/" target="_blank" rel="noopener noreferrer">Cultures of History Forum</a> (Academic-oriented platform focused on cultures of history, memory, and historiography in Central/Eastern/Southeastern Europe and beyond)</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/cultural-history/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#foundations-of-cultural-history">Foundations of Cultural History</a><ul>
-<li><a href="#how-culture-and-history-work">How Culture and History Work</a></li>
-<li><a href="#how-we-read-cultural-evidence">How We Read Cultural Evidence</a></li>
-</ul>
-</li>
-<li><a href="#global-cultural-history--before-1500">Global Cultural History — Before 1500</a><ul>
-<li><a href="#a-ancient--classical-worlds">A. Ancient &amp; Classical Worlds</a></li>
-<li><a href="#b-medieval-global-cultures-5001500">B. Medieval Global Cultures 500–1500</a></li>
-</ul>
-</li>
-<li><a href="#global-cultural-history--15001800">Global Cultural History — 1500–1800</a><ul>
-<li><a href="#a-encounters-empires-exchange">A. Encounters, Empires, Exchange</a></li>
-</ul>
-</li>
-<li><a href="#global-cultural-history--1800present">Global Cultural History — 1800–Present</a><ul>
-<li><a href="#a-industrial-colonial-postcolonial-worlds">A. Industrial, Colonial, Postcolonial Worlds</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core-sections">Core Sections</h3>
-<p>These sections form the necessary backbone of the discipline. Study them in this exact order:</p>
-<ol>
-<li>
-<p>I. Foundations of Cultural History<br />
-   Start here. This section teaches you the basic concepts, methods, and ways of reading cultural evidence that you will use throughout the entire curriculum.</p>
-</li>
-<li>
-<p>II. Global Cultural History — Before 1500<br />
-   Move to this section next. It gives you the long-term historical context of human societies before the modern era.</p>
-</li>
-<li>
-<p>III. Global Cultural History — 1500–1800<br />
-   Continue directly after section II. This covers the crucial period of global encounters, early empires, and the beginnings of the modern world.</p>
-</li>
-<li>
-<p>IV. Global Cultural History — 1800–Present<br />
-   Finish the broad historical spine here. This section brings the story up to the contemporary world.</p>
-</li>
-</ol>
-<p>Once you have completed sections I–IV in order, you will have a coherent, chronological understanding of global cultural history and the main tools needed to analyze it.</p>
-<h2 id="foundations-of-cultural-history">Foundations of Cultural History</h2>
-<h3 id="1-introduction-to-cultural-history">1. Introduction to Cultural History</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>What is cultural history?</td>
-<td>Peter Burke, <em>What is Cultural History?</em> (Polity, 3rd ed. recommended; check library or affordable editions)</td>
-</tr>
-<tr>
-<td>Key concepts &amp; approaches</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://academic.oup.com/book/489">Cultural History – A Very Short Introduction (excerpts or summary via open resources if full text not free)</a> (supplemental)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="2-how-culture-and-history-work">2. How Culture and History Work</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Historical method &amp; thinking</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://inquirygroup.org/history-lessons">Stanford History Education Group Reading Like a Historian</a> (now hosted by Digital Inquiry Group, successor to SHEG)</td>
-</tr>
-<tr>
-<td>Culture as evidence &amp; historical sources</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/anthropology/">MIT OCW: Introduction to Anthropology (select modules)</a> + [Peter Burke excerpts on cultural sources]</td>
-</tr>
-</tbody>
-</table>
-<h3 id="3-how-we-read-cultural-evidence">3. How We Read Cultural Evidence</h3>
-<table>
-<thead>
-<tr>
-<th>Domain</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Texts &amp; myths</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://sacred-texts.com/">Internet Sacred Text Archive</a></td>
-</tr>
-<tr>
-<td>Art &amp; objects</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.metmuseum.org/toah/">MET Museum Heilbrunn Timeline</a></td>
-</tr>
-<tr>
-<td>Architecture &amp; cities</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://smarthistory.org/">Smarthistory</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="global-cultural-history-before-1500">Global Cultural History — Before 1500</h2>
-<p>(<em>All regions studied together</em>)</p>
-<h3 id="a-ancient-classical-worlds">A. Ancient &amp; Classical Worlds</h3>
-<table>
-<thead>
-<tr>
-<th>Region</th>
-<th>Primary Source Base</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mesopotamia, Egypt</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://sourcebooks.fordham.edu/ancient/asbook.asp">Internet Ancient History Sourcebook</a></td>
-</tr>
-<tr>
-<td>India</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://sourcebooks.fordham.edu/india/indiasbook.asp">Fordham Indian History Sourcebook</a></td>
-</tr>
-<tr>
-<td>China</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ctext.org/">Chinese Text Project</a></td>
-</tr>
-<tr>
-<td>Africa</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/j.f.adeajayigeneralhistoryofafricavolum">UNESCO General History of Africa Vol. I–II</a> (full volumes available on Internet Archive)</td>
-</tr>
-<tr>
-<td>Americas</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.doaks.org/research/pre-columbian">Dumbarton Oaks Pre-Columbian</a></td>
-</tr>
-</tbody>
-</table>
-<p>Core Narrative: <a target="_blank" rel="noopener noreferrer" href="https://openstax.org/details/books/world-history-volume-1">OpenStax <em>World History Vol. 1</em></a></p>
-<h3 id="b-medieval-global-cultures-5001500">B. Medieval Global Cultures (500–1500)</h3>
-<table>
-<thead>
-<tr>
-<th>Civilizational sphere</th>
-<th>Sources</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Islamic world</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://agakhanmuseum.org/">Aga Khan Museum online</a> (collections and virtual access)</td>
-</tr>
-<tr>
-<td>Europe</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210">Yale HIST 210</a> (Early Middle Ages)</td>
-</tr>
-<tr>
-<td>China</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/school/harvardx">Harvard ChinaX materials</a></td>
-</tr>
-<tr>
-<td>Africa</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/j.f.adeajayigeneralhistoryofafricavolum">UNESCO GHA Vol. III</a> (part of the series)</td>
-</tr>
-<tr>
-<td>Americas</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.doaks.org/research/pre-columbian">FAMSI + Dumbarton Oaks</a> (FAMSI integrated into similar resources)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="global-cultural-history-15001800">Global Cultural History — 1500–1800</h2>
-<h3 id="a-encounters-empires-exchange">A. Encounters, Empires, Exchange</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://openstax.org/details/books/world-history-volume-2">OpenStax <em>World History Vol. 2</em></a> (Note: Use later chapters for post-1500)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://sourcebooks.fordham.edu/mod/modsbook.asp">Fordham Modern History Sourcebook</a></li>
-</ul>
-<p>Regions studied in parallel:</p>
-<ul>
-<li>Europe</li>
-<li>Islamic empires</li>
-<li>China &amp; Japan</li>
-<li>Africa</li>
-<li>Indigenous Americas</li>
-</ul>
-<h2 id="global-cultural-history-1800present">Global Cultural History — 1800–Present</h2>
-<h3 id="a-industrial-colonial-postcolonial-worlds">A. Industrial, Colonial, Postcolonial Worlds</h3>
-<ul>
-<li>OpenStax World History Vol. 2 (later chapters)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history">Yale Global History lectures</a> (relevant global courses available)</li>
-</ul>
-<p>Primary sources:</p>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://digitalarchive.wilsoncenter.org/">Wilson Center Digital Archive</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.bl.uk/collection-items">British Library Images</a> (searchable images collection)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.si.edu/openaccess">Smithsonian Open Access</a></li>
-</ul>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="theories-and-concepts-in-cultural-history">Theories and Concepts in Cultural History</h3>
+<p>This subject examines the theoretical development of cultural history, the historiographical "cultural turn," and core interpretive concepts including mentalities, symbolic anthropology, and discourse analysis.</p>
+<p><a href="https://books.google.com/books?isbn=9781509522217" target="_blank" rel="noopener noreferrer">What is Cultural History? by Peter Burke (Polity)</a> - Start with this concise foundational roadmap, which surveys classic cultural history, the Annales tradition, the New Cultural History, and contemporary twenty-first-century directions.</p>
+<p><a href="https://books.google.com/books?isbn=9780415520430" target="_blank" rel="noopener noreferrer">The Cultural History Reader edited by Peter McCaffery and Ben Marsden (Routledge)</a> - A complementary anthology to read alongside Burke, pairing seminal excerpts from Jacob Burckhardt, Johan Huizinga, and Michel Foucault with guided contextual introductions.</p>
+<p><a href="https://books.google.com/books?isbn=9780520064287" target="_blank" rel="noopener noreferrer">The New Cultural History edited by Lynn Hunt (University of California Press)</a> - An alternative reader to McCaffery and Marsden that focuses more specifically on how Anglo-American historians adopted literary theory and symbolic anthropology during the 1980s.</p>
+<p><a href="https://books.google.com/books?isbn=9780465097197" target="_blank" rel="noopener noreferrer">The Interpretation of Cultures by Clifford Geertz (Basic Books)</a> - Read the opening chapter, "Thick Description," directly after Burke as the seminal primary text defining culture as an interconnected, interpretable web of social symbols.</p>
+<h3 id="interpreting-cultural-evidence-images-objects-and-texts">Interpreting Cultural Evidence: Images, Objects, and Texts</h3>
+<p>This subject introduces the practical interpretive frameworks cultural historians use to analyze non-traditional historical evidence, including visual artwork, material artifacts, and microhistorical archival records.</p>
+<p><a href="https://books.google.com/books?isbn=9781789140613" target="_blank" rel="noopener noreferrer">Eyewitnessing: The Uses of Images as Historical Evidence by Peter Burke (Reaktion Books)</a> - The primary methodological textbook for visual evidence, providing practical rules for evaluating paintings, iconography, and photography as historical sources without treating them as direct reflections of reality.</p>
+<p><a href="https://www.youtube.com/watch?v=8wxRxSfhw6I" target="_blank" rel="noopener noreferrer">Ways of Seeing by John Berger (BBC / YouTube)</a> - A free four-part television series that serves as an audiovisual companion to Burke, demonstrating how to decode the hidden ideologies, property relations, and gender roles embedded in visual culture.</p>
+<p><a href="https://www.bbc.co.uk/programmes/b00nrtd2" target="_blank" rel="noopener noreferrer">A History of the World in 100 Objects (BBC Radio 4 / British Museum)</a> - A complementary 100-part audio series shifting focus from visual imagery to material culture, demonstrating how physical artifacts reveal the spiritual values, technologies, and social systems of past societies.</p>
+<p><a href="https://books.google.com/books?isbn=9780465027002" target="_blank" rel="noopener noreferrer">The Great Cat Massacre and Other Episodes in French Cultural History by Robert Darnton (Basic Books)</a> - A complementary microhistorical case study that shows how to apply ethnographic methods to textual folklore, archival police files, and urban rituals.</p>
+<h3 id="ancient-and-classical-cultural-worlds">Ancient and Classical Cultural Worlds</h3>
+<p>This subject investigates the mythic cosmologies, religious rituals, sacred monarchies, and civic life of ancient Afro-Eurasian and early American civilizations.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-1" target="_blank" rel="noopener noreferrer">World History, Volume 1: to 1500 (OpenStax)</a> - Read Chapters 1 through 8 as your foundational chronological spine, establishing the political, geographical, and economic timelines of ancient civilizational centers.</p>
+<p><a href="https://oyc.yale.edu/classics/clcv-205" target="_blank" rel="noopener noreferrer">Introduction to Ancient Greek History (Open Yale Courses / Donald Kagan)</a> - A complementary 24-lecture collegiate course to watch alongside the OpenStax reading, offering a deep audiovisual case study of the civic rituals, political culture, and religious life of classical antiquity.</p>
+<p><a href="https://books.google.com/books?isbn=9780156792011" target="_blank" rel="noopener noreferrer">The Sacred and the Profane: The Nature of Religion by Mircea Eliade (Houghton Mifflin Harcourt)</a> - A theoretical companion to the historical narrative, providing the interpretive concepts needed to understand how traditional societies structured their existence around sacred space, cyclical time, and foundational myths.</p>
+<h3 id="medieval-and-post-classical-cultural-worlds-5001500">Medieval and Post-Classical Cultural Worlds (500–1500)</h3>
+<p>This subject explores the religious syntheses, monastic traditions, courtly cultures, and intercultural networks that defined Afro-Eurasian and American societies in the post-classical era.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-1" target="_blank" rel="noopener noreferrer">World History, Volume 1: to 1500 (OpenStax)</a> - Read Chapters 9 through 17 to establish the global post-classical foundation, tracing Islamic caliphates, Tang and Song dynasty China, trans-Saharan trade, and the Mongol exchange.</p>
+<p><a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">The Early Middle Ages, 284–1000 (Open Yale Courses / Paul Freedman)</a> - A complementary 22-lecture recorded course that deepens the European and Mediterranean chapters of OpenStax by exploring the conversion of barbarian kingdoms, monastic spirituality, and early medieval popular piety.</p>
+<p><a href="https://books.google.com/books?isbn=9780226359946" target="_blank" rel="noopener noreferrer">The Autumn of the Middle Ages by Johan Huizinga (University of Chicago Press)</a> - A seminal monograph to read after completing the general surveys, offering an intimate investigation into late-medieval emotional life, chivalric pageantry, and religious sensibilities (a free, though abridged, 1924 public-domain translation is available on the Internet Archive under the title <em>The Waning of the Middle Ages</em>).</p>
+<h3 id="early-modern-cultural-worlds-encounters-print-and-reformations-15001800">Early Modern Cultural Worlds: Encounters, Print, and Reformations (1500–1800)</h3>
+<p>This subject covers the cultural consequences of global oceanic contact, the printing revolution, religious fragmentation, and the coexistence of popular folklore with emerging scientific worldviews.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-2" target="_blank" rel="noopener noreferrer">World History, Volume 2: from 1400 (OpenStax)</a> - Study Chapters 1 through 8 to establish the global historical context covering maritime empires, the Protestant and Catholic Reformations, gunpowder empires, and the Enlightenment.</p>
+<p><a href="https://oyc.yale.edu/history/hist-251" target="_blank" rel="noopener noreferrer">Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (Open Yale Courses / Keith Wrightson)</a> - An audiovisual lecture series complementing the OpenStax survey, providing a granular social and cultural analysis of popular literacy, parish life, and changing mentalities in early modern communities.</p>
+<p><a href="https://books.google.com/books?isbn=9780801843877" target="_blank" rel="noopener noreferrer">The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller by Carlo Ginzburg (Johns Hopkins University Press)</a> - A complementary microhistorical study to read alongside Wrightson's lectures, illustrating how non-elite individuals synthesized printed religious ideas with ancient peasant folklore under inquisitorial pressure.</p>
+<p><a href="https://books.google.com/books?isbn=9780415928793" target="_blank" rel="noopener noreferrer">The Mestizo Mind: The Intellectual Dynamics of Colonization and Globalization by Serge Gruzinski (Routledge)</a> - A complementary transnational study expanding the focus beyond Europe, examining how indigenous and Spanish worldviews, visual regimes, and religious symbols synthesized in colonial Mexico.</p>
+<h3 id="modern-and-contemporary-cultural-worlds-1800present">Modern and Contemporary Cultural Worlds (1800–Present)</h3>
+<p>This subject examines industrial everyday life, the invention of national identities, mass media communications, visual ideology, and collective historical memory in the nineteenth and twentieth centuries.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-2" target="_blank" rel="noopener noreferrer">World History, Volume 2: from 1400 (OpenStax)</a> - Read Chapters 9 through 15 to establish the modern global historical timeline, focusing on industrial urbanization, imperial expansion, mass ideological movements, and decolonization.</p>
+<p><a href="https://oyc.yale.edu/history/hist-202" target="_blank" rel="noopener noreferrer">European Civilization, 1648–1945 (Open Yale Courses / John Merriman)</a> - A 24-lecture collegiate course complementing the OpenStax chapters, providing rich cultural narratives on industrial working-class everyday life, urban culture, and the psychic impact of the World Wars.</p>
+<p><a href="https://books.google.com/books?isbn=9781784786755" target="_blank" rel="noopener noreferrer">Imagined Communities: Reflections on the Origin and Spread of Nationalism by Benedict Anderson (Verso)</a> - A seminal theoretical study to read after the historical surveys, explaining how print-capitalism, standardized languages, and mass daily media constructed the modern sense of national belonging.</p>
+<p><a href="https://books.google.com/books?isbn=9781849205634" target="_blank" rel="noopener noreferrer">Representation: Cultural Representations and Signifying Practices edited by Stuart Hall (SAGE / Open University)</a> - A complementary applied textbook to use alongside Anderson, providing practical analytical tools for decoding modern mass media, advertising images, and racial representations.</p>
+    </article>
+  </main>
 
 </body>
 </html>

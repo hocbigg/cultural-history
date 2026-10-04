@@ -1,111 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/cultural-history/style.css">
-<meta name="description" content="">
+  <title>Great Readings in Cultural History</title>
+  <meta name="description" content="Great Readings in Cultural History curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/cultural-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/cultural-history/extras/readings.html">
+  <meta property="og:title" content="Great Readings in Cultural History">
+  <meta property="og:description" content="Great Readings in Cultural History curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/cultural-history/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/cultural-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/cultural-history/">Cultural-History</a>
-<a href="/cultural-history/advanced_topics.html">Advanced Topics</a>
-<a href="/cultural-history/extras/courses.html">Extra Courses</a>
-<a href="/cultural-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/cultural-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/cultural-history/">Cultural History</a></li>
+      <li><a href="/cultural-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/cultural-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/cultural-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/cultural-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on Cultural History.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="anthropology-and-cultural-theory">Anthropology and Cultural Theory</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-cultural-history">Great Readings in Cultural History</h1>
+<p>This curated bibliography brings together landmark monographs, field-defining essays, and foundational theoretical texts in Cultural History. Rather than standard introductory survey textbooks, these works demonstrate how historians uncover collective mentalities, decode cultural symbols, interrogate archival silences, and trace transformations in human consciousness.</p>
+<ul>
+<li><a href="#foundations-mentalities-and-the-historiographical-cultural-turn">Foundations, Mentalities, and the Historiographical "Cultural Turn"</a></li>
+<li><a href="#microhistory-everyday-life-and-popular-beliefs">Microhistory, Everyday Life, and Popular Beliefs</a></li>
+<li><a href="#power-the-body-and-disciplinary-regimes">Power, the Body, and Disciplinary Regimes</a></li>
+<li><a href="#print-culture-media-and-the-public-sphere">Print Culture, Media, and the Public Sphere</a></li>
+<li><a href="#postcoloniality-subalternity-and-archival-power">Postcoloniality, Subalternity, and Archival Power</a></li>
+<li><a href="#memory-materiality-and-the-senses">Memory, Materiality, and the Senses</a></li>
+</ul>
+<h2 id="foundations-mentalities-and-the-historiographical-cultural-turn">Foundations, Mentalities, and the Historiographical "Cultural Turn"</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Writing-Culture-Poetics-Politics-Ethnography/dp/0520057291">Writing Culture: The Poetics and Politics of Ethnography</a></td>
-<td style="text-align: center;">James Clifford and George E. Marcus (eds.)</td>
+<td><a href="https://www.gutenberg.org/ebooks/2074" target="_blank" rel="noopener noreferrer"><em>The Civilization of the Renaissance in Italy</em></a></td>
+<td>Jacob Burckhardt</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Interpretation-Cultures-Selected-Essays-Geertz/dp/0465097197">The Interpretation of Cultures</a></td>
-<td style="text-align: center;">Clifford Geertz</td>
+<td><a href="https://books.google.com/books?isbn=9780226359946" target="_blank" rel="noopener noreferrer"><em>The Autumn of the Middle Ages</em></a></td>
+<td>Johan Huizinga</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/argonautsofweste00mali">Argonauts of the Western Pacific</a></td>
-<td style="text-align: center;">Bronisław Malinowski</td>
+<td><a href="https://books.google.com/books?isbn=9780140136036" target="_blank" rel="noopener noreferrer"><em>The Making of the English Working Class</em></a></td>
+<td>E. P. Thompson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780465097197" target="_blank" rel="noopener noreferrer"><em>The Interpretation of Cultures</em></a></td>
+<td>Clifford Geertz</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520064287" target="_blank" rel="noopener noreferrer"><em>The New Cultural History</em></a></td>
+<td>Lynn Hunt (ed.)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780754665076" target="_blank" rel="noopener noreferrer"><em>Popular Culture in Early Modern Europe</em></a></td>
+<td>Peter Burke</td>
 </tr>
 </tbody>
-</table>
-<h2 id="postcolonial-and-critical-studies">Postcolonial and Critical Studies</h2>
-<table>
+</table></div>
+<h2 id="microhistory-everyday-life-and-popular-beliefs">Microhistory, Everyday Life, and Popular Beliefs</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Orientalism-Edward-W-Said/dp/039474067X">Orientalism</a></td>
-<td style="text-align: center;">Edward W. Said</td>
+<td><a href="https://books.google.com/books?isbn=9780801843877" target="_blank" rel="noopener noreferrer"><em>The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller</em></a></td>
+<td>Carlo Ginzburg</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/wretchedearth00fran">The Wretched of the Earth</a></td>
-<td style="text-align: center;">Frantz Fanon</td>
+<td><a href="https://books.google.com/books?isbn=9780674766914" target="_blank" rel="noopener noreferrer"><em>The Return of Martin Guerre</em></a></td>
+<td>Natalie Zemon Davis</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Provincializing-Europe-Postcolonial-Historical-Difference/dp/0691130019">Provincializing Europe: Postcolonial Thought and Historical Difference</a></td>
-<td style="text-align: center;">Dipesh Chakrabarty</td>
+<td><a href="https://books.google.com/books?isbn=9780465027002" target="_blank" rel="noopener noreferrer"><em>The Great Cat Massacre and Other Episodes in French Cultural History</em></a></td>
+<td>Robert Darnton</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780140137002" target="_blank" rel="noopener noreferrer"><em>Montaillou: Cathars and Catholics in a French Village 1294–1324</em></a></td>
+<td>Emmanuel Le Roy Ladurie</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780804709729" target="_blank" rel="noopener noreferrer"><em>Society and Culture in Early Modern France: Eight Essays</em></a></td>
+<td>Natalie Zemon Davis</td>
 </tr>
 </tbody>
-</table>
-<h2 id="ethnographies-and-cultural-histories">Ethnographies and Cultural Histories</h2>
-<table>
+</table></div>
+<h2 id="power-the-body-and-disciplinary-regimes">Power, the Body, and Disciplinary Regimes</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Spirit-Catches-You-Fall-Down/dp/0374533407">The Spirit Catches You and You Fall Down</a></td>
-<td style="text-align: center;">Anne Fadiman</td>
+<td><a href="https://books.google.com/books?isbn=9780679752554" target="_blank" rel="noopener noreferrer"><em>Discipline and Punish: The Birth of the Prison</em></a></td>
+<td>Michel Foucault</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Europe-People-Without-History/dp/0520268180">Europe and the People Without History</a></td>
-<td style="text-align: center;">Eric R. Wolf</td>
+<td><a href="https://books.google.com/books?isbn=9780631221616" target="_blank" rel="noopener noreferrer"><em>The Civilizing Process: Sociogenetic and Psychogenetic Investigations</em></a></td>
+<td>Norbert Elias</td>
+</tr>
+<tr>
+<td><a href="https://www.jstor.org/stable/1864376" target="_blank" rel="noopener noreferrer"><em>"Gender: A Useful Category of Historical Analysis"</em></a></td>
+<td>Joan Wallach Scott</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780674543553" target="_blank" rel="noopener noreferrer"><em>Making Sex: Body and Gender from the Greeks to Freud</em></a></td>
+<td>Thomas Laqueur</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520063297" target="_blank" rel="noopener noreferrer"><em>Holy Feast and Holy Fast: The Religious Significance of Food to Medieval Women</em></a></td>
+<td>Caroline Walker Bynum</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="print-culture-media-and-the-public-sphere">Print Culture, Media, and the Public Sphere</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780262581080" target="_blank" rel="noopener noreferrer"><em>The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society</em></a></td>
+<td>Jürgen Habermas</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781784786755" target="_blank" rel="noopener noreferrer"><em>Imagined Communities: Reflections on the Origin and Spread of Nationalism</em></a></td>
+<td>Benedict Anderson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780804722674" target="_blank" rel="noopener noreferrer"><em>The Order of Books: Readers, Authors, and Libraries in Europe between the Fourteenth and Eighteenth Centuries</em></a></td>
+<td>Roger Chartier</td>
+</tr>
+<tr>
+<td><a href="https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm" target="_blank" rel="noopener noreferrer"><em>"The Work of Art in the Age of Mechanical Reproduction"</em></a></td>
+<td>Walter Benjamin</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521607742" target="_blank" rel="noopener noreferrer"><em>The Printing Revolution in Early Modern Europe</em></a></td>
+<td>Elizabeth L. Eisenstein</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="postcoloniality-subalternity-and-archival-power">Postcoloniality, Subalternity, and Archival Power</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780394740676" target="_blank" rel="noopener noreferrer"><em>Orientalism</em></a></td>
+<td>Edward W. Said</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780807080535" target="_blank" rel="noopener noreferrer"><em>Silencing the Past: Power and the Production of History</em></a></td>
+<td>Michel-Rolph Trouillot</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780691130019" target="_blank" rel="noopener noreferrer"><em>Provincializing Europe: Postcolonial Thought and Historical Difference</em></a></td>
+<td>Dipesh Chakrabarty</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780252014017" target="_blank" rel="noopener noreferrer"><em>"Can the Subaltern Speak?"</em> (in <em>Marxism and the Interpretation of Culture</em>)</a></td>
+<td>Gayatri Chakravorty Spivak</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780802158635" target="_blank" rel="noopener noreferrer"><em>The Wretched of the Earth</em></a></td>
+<td>Frantz Fanon</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520268180" target="_blank" rel="noopener noreferrer"><em>Europe and the People Without History</em></a></td>
+<td>Eric R. Wolf</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="memory-materiality-and-the-senses">Memory, Materiality, and the Senses</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780231084048" target="_blank" rel="noopener noreferrer"><em>Realms of Memory: Rethinking the French Past, Volume 1: Conflicts and Divisions</em></a></td>
+<td>Pierre Nora (ed.)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780226115962" target="_blank" rel="noopener noreferrer"><em>On Collective Memory</em></a></td>
+<td>Maurice Halbwachs</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521357265" target="_blank" rel="noopener noreferrer"><em>The Social Life of Things: Commodities in Cultural Perspective</em></a></td>
+<td>Arjun Appadurai (ed.)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780674311763" target="_blank" rel="noopener noreferrer"><em>The Foul and the Fragrant: Odor and the French Social Imagination</em></a></td>
+<td>Alain Corbin</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520271456" target="_blank" rel="noopener noreferrer"><em>The Practice of Everyday Life</em></a></td>
+<td>Michel de Certeau</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

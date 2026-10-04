@@ -1,110 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/cultural-history/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="Advanced Topics curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/cultural-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/cultural-history/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="Advanced Topics curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/cultural-history/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/cultural-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/cultural-history/">Cultural-History</a>
-<a href="/cultural-history/advanced_topics.html">Advanced Topics</a>
-<a href="/cultural-history/extras/courses.html">Extra Courses</a>
-<a href="/cultural-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/cultural-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/cultural-history/">Cultural History</a></li>
+      <li><a href="/cultural-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/cultural-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/cultural-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/cultural-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
+<p>Learners are encouraged to select one or two tracks aligned with their interests rather than attempting to complete all tracks.</p>
 <ul>
-<li><a href="#thematic-cultural-systems-grounded-in-history">Thematic Cultural Systems Grounded in History</a><ul>
-<li><a href="#a-religion--cosmology">A. Religion &amp; Cosmology</a></li>
-<li><a href="#b-art--visual-culture">B. Art &amp; Visual Culture</a></li>
-<li><a href="#c-gender-family-body">C. Gender, Family, Body</a></li>
-<li><a href="#d-everyday-life--objects">D. Everyday Life &amp; Objects</a></li>
+<li><a href="#history-of-mentalities-emotions-and-the-senses">History of Mentalities, Emotions, and the Senses</a> — Explores cognitive frameworks, historical psychology, affective regimes, and sensory perception across past societies.</li>
+<li><a href="#print-culture-book-history-and-digital-publics">Print Culture, Book History, and Digital Publics</a> — Investigates the material sociology of texts, illicit communication networks, the public sphere, and computational methodologies.</li>
+<li><a href="#the-body-gender-and-the-cultural-history-of-sexuality">The Body, Gender, and the Cultural History of Sexuality</a> — Examines somatic disciplines, biopolitics, gender as an analytical framework, and the historical construction of sexual subjectivities.</li>
+<li><a href="#postcolonial-formations-subalternity-and-imperialism">Postcolonial Formations, Subalternity, and Imperialism</a> — Analyzes colonial discourse, archival silencing, non-elite subaltern agency, and oceanic cultural diaspora.</li>
+<li><a href="#cultural-memory-materiality-and-spatial-history">Cultural Memory, Materiality, and Spatial History</a> — Studies collective remembrance, difficult heritage, the social agency of material objects, and the cultural production of space.</li>
 </ul>
-</li>
-<li><a href="#interpretive-lenses-used-after-historical-grounding">Interpretive Lenses Used After Historical Grounding</a></li>
-</ul>
-<p>After completing the Core (sections I–IV), move to the following two sections according to your interests:</p>
-<ul>
-<li>
-<p>V. Thematic Cultural Systems<br />
-  This section lets you explore major cultural domains (religion, art, gender, everyday life) across time. Work through the subsections that interest you most, or study all of them if you want a well-rounded view.</p>
-</li>
-<li>
-<p>VI. Interpretive Lenses<br />
-  This section introduces powerful theoretical perspectives that help you ask deeper questions about culture, power, and change. Read these works after you have a solid historical foundation, and return to them as needed when analyzing specific topics.</p>
-</li>
-</ul>
-<h2 id="thematic-cultural-systems-grounded-in-history">Thematic Cultural Systems (Grounded in History)</h2>
-<h3 id="a-religion-cosmology">A. Religion &amp; Cosmology</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://pluralism.org/">Harvard Pluralism Project</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.bbc.co.uk/religion">BBC Religions Archive</a> (archived content)</li>
-</ul>
-<h3 id="b-art-visual-culture">B. Art &amp; Visual Culture</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://smarthistory.org/">Smarthistory</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.metmuseum.org/toah/">MET Heilbrunn</a></li>
-</ul>
-<h3 id="c-gender-family-body">C. Gender, Family, Body</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history">Open Yale: Gender History</a> (relevant courses, e.g., Early Modern England)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://searchworks.stanford.edu/view/3830877">Stanford Gender History Reader</a> (related materials; exact reader may vary)</li>
-</ul>
-<h3 id="d-everyday-life-objects">D. Everyday Life &amp; Objects</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.britishmuseum.org/collection">British Museum Collection</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.europeana.eu/">Europeana</a></li>
-</ul>
-<h2 id="interpretive-lenses-used-after-historical-grounding">Interpretive Lenses (Used After Historical Grounding)</h2>
-<table>
-<thead>
-<tr>
-<th>Lens</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Power &amp; empire</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/orientalism00said">Said, <em>Orientalism</em></a> (various editions on Archive.org)</td>
-</tr>
-<tr>
-<td>Modernity</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/allthatissolidm00berm">Berman</a> (<em>All That Is Solid Melts into Air</em>)</td>
-</tr>
-<tr>
-<td>Sexuality</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/historyofsexuali0000fouc">Foucault</a> (<em>History of Sexuality</em>)</td>
-</tr>
-<tr>
-<td>Globalization</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/globalizationcul00toml">Tomlinson</a> (<em>Globalization and Culture</em>)</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="history-of-mentalities-emotions-and-the-senses">History of Mentalities, Emotions, and the Senses</h2>
+<p>This track explores how historical actors understood, felt, and physically experienced their worlds by examining collective psychological limits, emotional standards, sensory habits, and microhistorical anomalies.</p>
+<p><em>Histoire des Mentalités</em> and Historical Psychology: <a href="https://books.google.com/books?isbn=9780674708266" target="_blank" rel="noopener noreferrer">The Problem of Unbelief in the Sixteenth Century: The Religion of Rabelais by Lucien Febvre (Harvard University Press)</a> - Demonstrates how the linguistic and conceptual toolkit of the early modern era made modern religious disbelief cognitively impossible.</p>
+<p>History of Emotions and Emotional Regimes: <a href="https://books.google.com/books?isbn=9780521803038" target="_blank" rel="noopener noreferrer">The Navigation of Feeling: A Framework for the History of Emotions by William M. Reddy (Cambridge University Press)</a> - Introduces the foundational theory of emotives and emotional liberty, showing how political orders enforce emotional norms.</p>
+<p>Sensory History and Olfactory Perception: <a href="https://books.google.com/books?isbn=9780674311763" target="_blank" rel="noopener noreferrer">The Foul and the Fragrant: Odor and the French Social Imagination by Alain Corbin (Harvard University Press)</a> - Analyzes how shifting thresholds of disgust and olfactory sensibilities reshaped class boundaries and urban planning in modern France.</p>
+<p>Microhistory and Archival Exceptions: <a href="https://books.google.com/books?isbn=9780674766914" target="_blank" rel="noopener noreferrer">The Return of Martin Guerre by Natalie Zemon Davis (Harvard University Press)</a> - Investigates a celebrated sixteenth-century trial of imposture to demonstrate peasant self-fashioning, domestic negotiation, and evidentiary ambiguity.</p>
+<h2 id="print-culture-book-history-and-digital-publics">Print Culture, Book History, and Digital Publics</h2>
+<p>This track analyzes the production, distribution, and consumption of texts, tracing how material media formats, censorship systems, and digital methods shape human communication and political action.</p>
+<p>Book History and the Sociology of Texts: <a href="https://books.google.com/books?isbn=9780804722674" target="_blank" rel="noopener noreferrer">The Order of Books: Readers, Authors, and Libraries in Europe between the Fourteenth and Eighteenth Centuries by Roger Chartier (Stanford University Press)</a> - Explores how the material forms of the written word govern the construction of meaning and the practices of reading.</p>
+<p>Underground Literature and Clandestine Publishing: <a href="https://books.google.com/books?isbn=9780393314427" target="_blank" rel="noopener noreferrer">The Forbidden Best-Sellers of Pre-Revolutionary France by Robert Darnton (W. W. Norton &amp; Company)</a> - Uses publishing and police records to track the smuggling of illicit books and their role in eroding royal legitimacy.</p>
+<p>The Bourgeois Public Sphere: <a href="https://books.google.com/books?isbn=9780262581080" target="_blank" rel="noopener noreferrer">The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society by Jürgen Habermas (MIT Press)</a> - A seminal sociological history tracing how eighteenth-century salons, coffeehouses, and periodicals created a space for rational-critical debate.</p>
+<p>Computational Methods and Digital Humanities: <a href="https://programminghistorian.org/" target="_blank" rel="noopener noreferrer">Programming Historian (The Programming Historian Project)</a> - An open-access platform providing structured, peer-reviewed tutorials in text mining, network analysis, and geospatial mapping for historical research.</p>
+<h2 id="the-body-gender-and-the-cultural-history-of-sexuality">The Body, Gender, and the Cultural History of Sexuality</h2>
+<p>This track investigates how power, institutions, and cultural narratives shape human corporeality, gender roles, sexual categorizations, and social pathologies over time.</p>
+<p>The Disciplined Body and Biopolitics: <a href="https://books.google.com/books?isbn=9780679752554" target="_blank" rel="noopener noreferrer">Discipline and Punish: The Birth of the Prison by Michel Foucault (Vintage Books)</a> - The definitive theoretical exploration of modern bodily surveillance, penal transformation, and institutional disciplinary techniques.</p>
+<p>Gender as an Analytical Category: <a href="https://books.google.com/books?isbn=9780231118576" target="_blank" rel="noopener noreferrer">Gender and the Politics of History by Joan Wallach Scott (Columbia University Press)</a> - Establishes gender as a fundamental historical category that articulates relationships of power across political and labor institutions.</p>
+<p>Queer Geographies and Sexual Subcultures: <a href="https://books.google.com/books?isbn=9780465026210" target="_blank" rel="noopener noreferrer">Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890–1940 by George Chauncey (Basic Books)</a> - Refutes the myth of the pre-Stonewall isolated closet by documenting the visible, complex queer public cultures of early twentieth-century New York.</p>
+<p>Cultural Histories of Disease and Stigma: <a href="https://books.google.com/books?isbn=9780312420130" target="_blank" rel="noopener noreferrer">Illness as Metaphor and AIDS and Its Metaphors by Susan Sontag (Picador)</a> - Examines how cultures impose moral blame, military rhetoric, and aesthetic baggage onto physical disease.</p>
+<h2 id="postcolonial-formations-subalternity-and-imperialism">Postcolonial Formations, Subalternity, and Imperialism</h2>
+<p>This track examines how imperial regimes constructed knowledge about colonized populations, how subaltern communities contested administrative power, and how cross-cultural contact produced diasporic cultures.</p>
+<p>Orientalism and Imperial Discourse: <a href="https://books.google.com/books?isbn=9780394740676" target="_blank" rel="noopener noreferrer">Orientalism by Edward W. Said (Vintage Books)</a> - The foundational critique of how Western scholarship, literature, and art systematically constructed the Orient as an exotic and subjugated object.</p>
+<p>Subalternity and Archival Power: <a href="https://books.google.com/books?isbn=9780807080535" target="_blank" rel="noopener noreferrer">Silencing the Past: Power and the Production of History by Michel-Rolph Trouillot (Beacon Press)</a> - Analyzes the mechanics of historical erasure across source creation, archival preservation, and narrative assembly using the Haitian Revolution.</p>
+<p>The Black Atlantic and Diasporic Modernity: <a href="https://books.google.com/books?isbn=9780674076068" target="_blank" rel="noopener noreferrer">The Black Atlantic: Modernity and Double Consciousness by Paul Gilroy (Harvard University Press)</a> - Uses the transnational movements of people, intellectual traditions, and music across the Atlantic to rethink the history of modernity outside national boundaries.</p>
+<p>Colonial Epistemology and Archival Ethnography: <a href="https://books.google.com/books?isbn=9780691146362" target="_blank" rel="noopener noreferrer">Along the Archival Grain: Epistemic Anxieties and Colonial Common Sense by Ann Laura Stoler (Princeton University Press)</a> - Demonstrates how to read colonial bureaucratic records not as factual repositories, but as sites of imperial sentiment, anxiety, and moral doubt.</p>
+<h2 id="cultural-memory-materiality-and-spatial-history">Cultural Memory, Materiality, and Spatial History</h2>
+<p>This track investigates how societies commemorate the past, grapple with traumatic legacies, interact with physical things, and invest landscapes and built environments with cultural significance.</p>
+<p>Collective Memory and Commemorative Sites: <a href="https://books.google.com/books?isbn=9780231084048" target="_blank" rel="noopener noreferrer">Realms of Memory: Rethinking the French Past, Volume 1: Conflicts and Divisions edited by Pierre Nora (Columbia University Press)</a> - Articulates the concept of <em>lieux de mémoire</em> (sites of memory) to demonstrate where collective remembrance crystallizes when living memory fades.</p>
+<p>Traumatic Heritage and Restitution: <a href="https://books.google.com/books?isbn=9780745341767" target="_blank" rel="noopener noreferrer">The Brutish Museums: The Benin Bronzes, Colonial Violence and Cultural Restitution by Dan Hicks (Pluto Press)</a> - Interrogates the ongoing display of imperial plunder in Western institutions, framing museums as weapons of colonial violence and sites for ethical restitution.</p>
+<p>Material Culture and Commodity Biographies: <a href="https://books.google.com/books?isbn=9780521357265" target="_blank" rel="noopener noreferrer">The Social Life of Things: Commodities in Cultural Perspective edited by Arjun Appadurai (Cambridge University Press)</a> - Establishes the methodology of object biography to reveal how physical things accumulate and alter social meaning as they circulate.</p>
+<p>Spatial Practice and Everyday Resistance: <a href="https://books.google.com/books?isbn=9780520271456" target="_blank" rel="noopener noreferrer">The Practice of Everyday Life by Michel de Certeau (University of California Press)</a> - Theorizes everyday tactics such as walking and reading as subtle forms of spatial and cultural resistance against dominant institutional structures.</p>
+    </article>
+  </main>
 
 </body>
 </html>
